@@ -1,0 +1,381 @@
+/*-
+ * Copyright (c) 2005-2007 Benedikt Meurer <benny@xfce.org>.
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Library General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Library General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ * MA 02110-1301 USA
+ */
+
+/* This file lists all exported symbols. It is used to generate
+ * the gobject.def file used to control exports on Windows and the
+ * blxo-alias.h/blxo-aliasdef.c files used to avoid PLT entries for
+ * internal uses of exported functions (see make-blxo-alias.pl).
+ *
+ * Every symbol must be included in the right
+ * #ifdef IN_HEADER(sym) #endif and
+ * #ifdef IN_SOURCE(sym) #endif sections.
+ */
+
+#ifdef ALL_FILES
+#define IN_HEADER(x) 1
+#define IN_SOURCE(x) 1
+#endif
+
+/* blxo-binding functions */
+#if IN_HEADER(__BLXO_BINDING_H__)
+#if IN_SOURCE(__BLXO_BINDING_C__)
+blxo_binding_new
+blxo_binding_new_full
+blxo_binding_new_with_negation
+blxo_binding_unbind
+blxo_mutual_binding_new
+blxo_mutual_binding_new_full
+blxo_mutual_binding_new_with_negation
+blxo_mutual_binding_unbind
+#endif
+#endif
+
+/* BlxoCellRendererEllipsizedText methods */
+#if IN_HEADER(__BLXO_CELL_RENDERER_ELLIPSIZED_TEXT_H__)
+#if IN_SOURCE(__BLXO_CELL_RENDERER_ELLIPSIZED_TEXT_C__)
+blxo_cell_renderer_ellipsized_text_get_type G_GNUC_CONST
+blxo_cell_renderer_ellipsized_text_new G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+#endif
+#endif
+
+/* BlxoCellRendererIcon methods */
+#if IN_HEADER(__BLXO_CELL_RENDERER_ICON_H__)
+#if IN_SOURCE(__BLXO_CELL_RENDERER_ICON_C__)
+blxo_cell_renderer_icon_get_type G_GNUC_CONST
+blxo_cell_renderer_icon_new G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+#endif
+#endif
+
+/* blxo-config variables */
+#if IN_HEADER(__BLXO_CONFIG_H__)
+#if IN_SOURCE(__BLXO_CONFIG_C__)
+#ifdef INCLUDE_VARIABLES
+blxo_major_version
+blxo_minor_version
+blxo_micro_version
+#endif
+blxo_check_version
+#endif
+#endif
+
+/* blxo-enum-types functions */
+#if IN_HEADER(__BLXO_ENUM_TYPES_H__)
+#if IN_SOURCE(__BLXO_ENUM_TYPES_C__)
+blxo_icon_view_drop_position_get_type G_GNUC_CONST
+blxo_icon_view_layout_mode_get_type G_GNUC_CONST
+blxo_toolbars_model_flags_get_type G_GNUC_CONST
+#endif
+#endif
+
+/* blxo-execute functions */
+#if IN_HEADER(__BLXO_EXECUTE_H__)
+#if IN_SOURCE(__BLXO_EXECUTE_C__)
+blxo_execute_preferred_application
+blxo_execute_preferred_application_on_screen
+blxo_execute_terminal_shell
+blxo_execute_terminal_shell_on_screen
+#endif
+#endif
+
+/* blxo-gdk-pixbuf-extensions functions */
+#if IN_HEADER(__BLXO_GDK_PIXBUF_EXTENSIONS_H__)
+#if IN_SOURCE(__BLXO_GDK_PIXBUF_EXTENSIONS_C__)
+blxo_gdk_pixbuf_colorize G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_gdk_pixbuf_frame G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_gdk_pixbuf_lucent G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_gdk_pixbuf_spotlight G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_gdk_pixbuf_scale_down G_GNUC_WARN_UNUSED_RESULT
+blxo_gdk_pixbuf_scale_ratio G_GNUC_WARN_UNUSED_RESULT
+blxo_gdk_pixbuf_new_from_file_at_max_size G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+#endif
+#endif
+
+/* blxo-gobject-extensions functions */
+#if IN_HEADER(__BLXO_GOBJECT_EXTENSIONS_H__)
+#if IN_SOURCE(__BLXO_GOBJECT_EXTENSIONS_C__)
+blxo_g_value_transform_negate
+#endif
+#endif
+
+/* blxo-gtk-extensions functions */
+#if IN_HEADER(__BLXO_GTK_EXTENSIONS_H__)
+#if IN_SOURCE(__BLXO_GTK_EXTENSIONS_C__)
+blxo_gtk_object_destroy_later
+blxo_gtk_file_chooser_add_thumbnail_preview
+blxo_gtk_url_about_dialog_hook
+blxo_gtk_dialog_get_action_area
+blxo_gtk_dialog_add_secondary_button
+#endif
+#endif
+
+/* BlxoIconBar methods */
+#if IN_HEADER(__BLXO_ICON_BAR_H__)
+#if IN_SOURCE(__BLXO_ICON_BAR_C__)
+blxo_icon_bar_get_type G_GNUC_CONST
+blxo_icon_bar_new
+blxo_icon_bar_new_with_model
+blxo_icon_bar_get_model
+blxo_icon_bar_set_model
+blxo_icon_bar_get_pixbuf_column
+blxo_icon_bar_set_pixbuf_column
+blxo_icon_bar_get_text_column
+blxo_icon_bar_set_text_column
+blxo_icon_bar_get_orientation
+blxo_icon_bar_set_orientation
+blxo_icon_bar_get_active
+blxo_icon_bar_set_active
+blxo_icon_bar_get_active_iter
+blxo_icon_bar_set_active_iter
+#endif
+#endif
+
+/* BlxoIconChooserDialog methods */
+#if IN_HEADER(__BLXO_ICON_CHOOSER_DIALOG_H__)
+#if IN_SOURCE(__BLXO_ICON_CHOOSER_DIALOG_C__)
+blxo_icon_chooser_dialog_get_type G_GNUC_CONST
+blxo_icon_chooser_dialog_new G_GNUC_MALLOC G_GNUC_NULL_TERMINATED G_GNUC_WARN_UNUSED_RESULT
+blxo_icon_chooser_dialog_get_icon G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_icon_chooser_dialog_set_icon
+#endif
+#endif
+
+/* BlxoIconView methods */
+#if IN_HEADER(__BLXO_ICON_VIEW_H__)
+#if IN_SOURCE(__BLXO_ICON_VIEW_C__)
+blxo_icon_view_get_type G_GNUC_CONST
+blxo_icon_view_new
+blxo_icon_view_new_with_model
+blxo_icon_view_get_model
+blxo_icon_view_set_model
+blxo_icon_view_get_orientation
+blxo_icon_view_set_orientation
+blxo_icon_view_get_columns
+blxo_icon_view_set_columns
+blxo_icon_view_get_item_width
+blxo_icon_view_set_item_width
+blxo_icon_view_get_spacing
+blxo_icon_view_set_spacing
+blxo_icon_view_get_row_spacing
+blxo_icon_view_set_row_spacing
+blxo_icon_view_get_column_spacing
+blxo_icon_view_set_column_spacing
+blxo_icon_view_get_margin
+blxo_icon_view_set_margin
+blxo_icon_view_get_selection_mode
+blxo_icon_view_set_selection_mode
+blxo_icon_view_get_single_click
+blxo_icon_view_set_single_click
+blxo_icon_view_get_single_click_timeout
+blxo_icon_view_set_single_click_timeout
+blxo_icon_view_get_layout_mode
+blxo_icon_view_set_layout_mode
+blxo_icon_view_widget_to_icon_coords
+blxo_icon_view_icon_to_widget_coords
+blxo_icon_view_get_path_at_pos
+blxo_icon_view_get_item_at_pos
+blxo_icon_view_get_visible_range
+blxo_icon_view_selected_foreach
+blxo_icon_view_select_path
+blxo_icon_view_unselect_path
+blxo_icon_view_path_is_selected
+blxo_icon_view_get_item_column
+blxo_icon_view_get_item_row
+blxo_icon_view_get_selected_items
+blxo_icon_view_select_all
+blxo_icon_view_unselect_all
+blxo_icon_view_selection_invert
+blxo_icon_view_item_activated
+blxo_icon_view_get_cursor
+blxo_icon_view_set_cursor
+blxo_icon_view_scroll_to_path
+blxo_icon_view_enable_model_drag_source
+blxo_icon_view_enable_model_drag_dest
+blxo_icon_view_unset_model_drag_source
+blxo_icon_view_unset_model_drag_dest
+blxo_icon_view_set_reorderable
+blxo_icon_view_get_reorderable
+blxo_icon_view_set_drag_dest_item
+blxo_icon_view_get_drag_dest_item
+blxo_icon_view_get_dest_item_at_pos
+blxo_icon_view_create_drag_icon
+blxo_icon_view_get_enable_search
+blxo_icon_view_set_enable_search
+blxo_icon_view_get_search_column
+blxo_icon_view_set_search_column
+blxo_icon_view_get_search_equal_func
+blxo_icon_view_set_search_equal_func
+blxo_icon_view_get_search_position_func
+blxo_icon_view_set_search_position_func
+#endif
+#endif
+
+/* blxo-job functions */
+#if IN_HEADER(__BLXO_JOB_H__)
+#if IN_SOURCE(__BLXO_JOB_C__)
+blxo_job_cancel
+blxo_job_emit
+blxo_job_get_cancellable
+blxo_job_get_type G_GNUC_CONST
+blxo_job_info_message
+blxo_job_is_cancelled
+blxo_job_launch
+blxo_job_percent
+blxo_job_send_to_mainloop
+blxo_job_set_error_if_cancelled
+#endif
+#endif
+
+/* blxo-utils functions */
+#if IN_HEADER(__BLXO_UTILS_H__)
+#if IN_SOURCE(__BLXO_UTILS_C__)
+blxo_noop
+blxo_noop_one G_GNUC_PURE
+blxo_noop_zero G_GNUC_PURE
+blxo_noop_null G_GNUC_PURE
+blxo_noop_true G_GNUC_PURE
+blxo_noop_false G_GNUC_PURE
+#ifdef INCLUDE_INTERNAL_SYMBOLS
+blxo_atomic_inc
+blxo_atomic_dec
+#endif
+#endif
+#endif
+
+/* blxo-simple-job functions */
+#if IN_HEADER(__BLXO_SIMPLE_JOB_H__)
+#if IN_SOURCE(__BLXO_SIMPLE_JOB_C__)
+blxo_simple_job_get_type G_GNUC_CONST
+blxo_simple_job_launch G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+#endif
+#endif
+
+/* blxo-string functions */
+#if IN_HEADER(__BLXO_STRING_H__)
+#if IN_SOURCE(__BLXO_STRING_C__)
+blxo_str_elide_underscores G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_str_is_equal
+blxo_str_is_flag
+blxo_str_replace G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_strdup_strftime G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_strndupv G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+blxo_str_looks_like_an_uri
+#endif
+#endif
+
+/* BlxoToolbarsEditorDialog methods */
+#if IN_HEADER(__BLXO_TOOLBARS_EDITOR_DIALOG_H__)
+#if IN_SOURCE(__BLXO_TOOLBARS_EDITOR_DIALOG_C__)
+blxo_toolbars_editor_dialog_get_type G_GNUC_CONST
+blxo_toolbars_editor_dialog_new_with_model
+#endif
+#endif
+
+/* BlxoToolbarsEditor methods */
+#if IN_HEADER(__BLXO_TOOLBARS_EDITOR_H__)
+#if IN_SOURCE(__BLXO_TOOLBARS_EDITOR_C__)
+blxo_toolbars_editor_get_type G_GNUC_CONST
+blxo_toolbars_editor_new
+blxo_toolbars_editor_new_with_model
+blxo_toolbars_editor_get_model
+blxo_toolbars_editor_set_model
+blxo_toolbars_editor_get_ui_manager
+blxo_toolbars_editor_set_ui_manager
+#endif
+#endif
+
+/* BlxoToolbarsModel methods */
+#if IN_HEADER(__BLXO_TOOLBARS_MODEL_H__)
+#if IN_SOURCE(__BLXO_TOOLBARS_MODEL_C__)
+blxo_toolbars_model_get_type G_GNUC_CONST
+blxo_toolbars_model_new
+blxo_toolbars_model_set_actions
+blxo_toolbars_model_get_actions
+blxo_toolbars_model_load_from_file
+blxo_toolbars_model_save_to_file
+blxo_toolbars_model_get_flags
+blxo_toolbars_model_set_flags
+blxo_toolbars_model_get_style
+blxo_toolbars_model_set_style
+blxo_toolbars_model_unset_style
+blxo_toolbars_model_get_item_type
+blxo_toolbars_model_get_item_id
+blxo_toolbars_model_get_item_data
+blxo_toolbars_model_add_item
+blxo_toolbars_model_add_separator
+blxo_toolbars_model_add_toolbar
+blxo_toolbars_model_move_item
+blxo_toolbars_model_remove_item
+blxo_toolbars_model_remove_toolbar
+blxo_toolbars_model_n_items
+blxo_toolbars_model_item_nth
+blxo_toolbars_model_n_toolbars
+blxo_toolbars_model_toolbar_nth
+#endif
+#endif
+
+/* BlxoToolbarsView methods */
+#if IN_HEADER(__BLXO_TOOLBARS_VIEW_H__)
+#if IN_SOURCE(__BLXO_TOOLBARS_VIEW_C__)
+blxo_toolbars_view_get_type G_GNUC_CONST
+blxo_toolbars_view_new
+blxo_toolbars_view_new_with_model
+blxo_toolbars_view_get_editing
+blxo_toolbars_view_set_editing
+blxo_toolbars_view_get_model
+blxo_toolbars_view_set_model
+blxo_toolbars_view_get_ui_manager
+blxo_toolbars_view_set_ui_manager
+#endif
+#endif
+
+#if IN_HEADER(__BLXO_TREE_VIEW_H__)
+#if IN_SOURCE(__BLXO_TREE_VIEW_C__)
+blxo_tree_view_get_type G_GNUC_CONST
+blxo_tree_view_new G_GNUC_MALLOC
+blxo_tree_view_get_single_click
+blxo_tree_view_set_single_click
+blxo_tree_view_get_single_click_timeout
+blxo_tree_view_set_single_click_timeout
+#endif
+#endif
+
+#if IN_HEADER(__BLXO_WRAP_TABLE_H__)
+#if IN_SOURCE(__BLXO_WRAP_TABLE_C__)
+blxo_wrap_table_get_type G_GNUC_CONST
+blxo_wrap_table_new G_GNUC_MALLOC
+blxo_wrap_table_get_col_spacing
+blxo_wrap_table_set_col_spacing
+blxo_wrap_table_get_row_spacing
+blxo_wrap_table_set_row_spacing
+blxo_wrap_table_get_homogeneous
+blxo_wrap_table_set_homogeneous
+#endif
+#endif
+
+/* BlxoXsessionClient methods */
+#if IN_HEADER(__BLXO_XSESSION_CLIENT_H__)
+#if IN_SOURCE(__BLXO_XSESSION_CLIENT_C__)
+blxo_xsession_client_get_type G_GNUC_CONST
+blxo_xsession_client_new_with_group
+blxo_xsession_client_get_group
+blxo_xsession_client_set_group
+blxo_xsession_client_get_restart_command
+blxo_xsession_client_set_restart_command
+#endif
+#endif

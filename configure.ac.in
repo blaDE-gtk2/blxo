@@ -9,21 +9,21 @@ dnl
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
-m4_define([libexo_verinfo], [1:0:1])
-m4_define([libexo_version_api], [1])
-m4_define([libexo2_version_api], [2])
-m4_define([libexo_version_major], [0])
-m4_define([libexo_version_minor], [12])
-m4_define([libexo_version_micro], [11])
-m4_define([libexo_version_nano], [])
-m4_define([libexo_version_build], [@REVISION@])
-m4_define([libexo_version_tag], [])
-m4_define([libexo_version], [libexo_version_major().libexo_version_minor().libexo_version_micro()ifelse(libexo_version_nano(), [], [], [.libexo_version_nano()])ifelse(libexo_version_tag(), [git], [libexo_version_tag()-libexo_version_build()], [libexo_version_tag()])])
+m4_define([libblxo_verinfo], [1:0:1])
+m4_define([libblxo_version_api], [1])
+m4_define([libblxo2_version_api], [2])
+m4_define([libblxo_version_major], [0])
+m4_define([libblxo_version_minor], [12])
+m4_define([libblxo_version_micro], [11])
+m4_define([libblxo_version_nano], [])
+m4_define([libblxo_version_build], [@REVISION@])
+m4_define([libblxo_version_tag], [])
+m4_define([libblxo_version], [libblxo_version_major().libblxo_version_minor().libblxo_version_micro()ifelse(libblxo_version_nano(), [], [], [.libblxo_version_nano()])ifelse(libblxo_version_tag(), [git], [libblxo_version_tag()-libblxo_version_build()], [libblxo_version_tag()])])
 
 dnl ********************************************
 dnl *** Full debug support for GIT snapshots ***
 dnl ********************************************
-m4_define([libexo_debug_default], [ifelse(libexo_version_tag(), [git], [yes], [minimum])])
+m4_define([libblxo_debug_default], [ifelse(libblxo_version_tag(), [git], [yes], [minimum])])
 
 dnl ****************************
 dnl *** For intltool support ***
@@ -35,7 +35,7 @@ dnl *** Initialize autoconf ***
 dnl ***************************
 AC_COPYRIGHT([Copyright (c) 2004-2010 os-cillation.
 Copyright (c) 2004-2019 Xfce Development Team])
-AC_INIT([exo], [libexo_version], [https://bugzilla.xfce.org/])
+AC_INIT([blxo], [libblxo_version], [https://bugzilla.xfce.org/])
 AC_PREREQ([2.60])
 AC_CONFIG_MACRO_DIR([m4])
 AC_REVISION([@REVISION@])
@@ -52,22 +52,22 @@ AM_SILENT_RULES([yes])
 dnl **************************
 dnl *** Libtool versioning ***
 dnl **************************
-LIBEXO_VERINFO=libexo_verinfo()
-AC_SUBST([LIBEXO_VERINFO])
+LIBBLXO_VERINFO=libblxo_verinfo()
+AC_SUBST([LIBBLXO_VERINFO])
 
 dnl ****************************
-dnl *** Subst libexo version ***
+dnl *** Subst libblxo version ***
 dnl ****************************
-LIBEXO_VERSION_API=libexo_version_api()
-LIBEXO2_VERSION_API=libexo2_version_api()
-LIBEXO_VERSION_MAJOR=libexo_version_major()
-LIBEXO_VERSION_MINOR=libexo_version_minor()
-LIBEXO_VERSION_MICRO=libexo_version_micro()
-AC_SUBST([LIBEXO_VERSION_API])
-AC_SUBST([LIBEXO2_VERSION_API])
-AC_SUBST([LIBEXO_VERSION_MAJOR])
-AC_SUBST([LIBEXO_VERSION_MINOR])
-AC_SUBST([LIBEXO_VERSION_MICRO])
+LIBBLXO_VERSION_API=libblxo_version_api()
+LIBBLXO2_VERSION_API=libblxo2_version_api()
+LIBBLXO_VERSION_MAJOR=libblxo_version_major()
+LIBBLXO_VERSION_MINOR=libblxo_version_minor()
+LIBBLXO_VERSION_MICRO=libblxo_version_micro()
+AC_SUBST([LIBBLXO_VERSION_API])
+AC_SUBST([LIBBLXO2_VERSION_API])
+AC_SUBST([LIBBLXO_VERSION_MAJOR])
+AC_SUBST([LIBBLXO_VERSION_MINOR])
+AC_SUBST([LIBBLXO_VERSION_MICRO])
 
 dnl ******************************
 dnl *** Set helper path prefix ***
@@ -162,7 +162,7 @@ AC_TRY_RUN([
 dnl ******************************
 dnl *** Check for i18n support ***
 dnl ******************************
-XDT_I18N([@LINGUAS@], [exo-libexo_version_api()])
+XDT_I18N([@LINGUAS@], [blxo-libblxo_version_api()])
 
 dnl ***********************************
 dnl *** Check for required packages ***
@@ -171,8 +171,8 @@ XDT_CHECK_PACKAGE([GLIB], [glib-2.0], [2.42.0])
 XDT_CHECK_PACKAGE([GIO], [gio-2.0], [2.42.0])
 XDT_CHECK_PACKAGE([GTK3], [gtk+-3.0], [3.22.0])
 XDT_CHECK_PACKAGE([GTHREAD], [gthread-2.0], [2.42.0])
-XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.12.0])
-XDT_CHECK_PACKAGE([LIBXFCE4UI2], [libxfce4ui-2], [4.12.0])
+XDT_CHECK_PACKAGE([LIBBLADEUTIL], [libbladeutil-1.0], [4.12.0])
+XDT_CHECK_PACKAGE([LIBBLADEUI2], [libbladeui-2], [4.12.0])
 XDT_CHECK_OPTIONAL_PACKAGE([GIO_UNIX], [gio-unix-2.0], [2.42.0], [gio-unix], [GIO-Unix features])
 
 dnl ***********************************************************
@@ -196,7 +196,7 @@ GTK_DOC_CHECK([1.9])
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
-XDT_FEATURE_DEBUG([libexo_debug_default])
+XDT_FEATURE_DEBUG([libblxo_debug_default])
 
 dnl **************************************
 dnl *** Check for linker optimizations ***
@@ -247,15 +247,15 @@ Makefile
 docs/Makefile
 docs/reference/Makefile
 docs/reference/version.xml
-exo/Makefile
-exo/exo-1.pc
-exo/exo-2.pc
-exo/exo-config.h
-exo-csource/Makefile
-exo-desktop-item-edit/Makefile
-exo-helper/Makefile
-exo-helper/helpers/Makefile
-exo-open/Makefile
+blxo/Makefile
+blxo/blxo-1.pc
+blxo/blxo-2.pc
+blxo/blxo-config.h
+blxo-csource/Makefile
+blxo-desktop-item-edit/Makefile
+blxo-helper/Makefile
+blxo-helper/helpers/Makefile
+blxo-open/Makefile
 icons/Makefile
 icons/24x24/Makefile
 icons/48x48/Makefile

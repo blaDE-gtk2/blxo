@@ -1,4 +1,4 @@
-Thanks to all the individuals that have contributed to the development of Exo.
+Thanks to all the individuals that have contributed to the development of Blxo.
 Since this project started, there have been so many contributors it has become
 unmaintainable to list each individually, but the original contributors are
 listed below.
@@ -10,20 +10,20 @@ For contributions on a commit basis, please see the ChangeLog file.
 What's this file about?
 -----------------------
 This file lists all external people that have contributed to this project and
-thereby helped to make libexo such a successful project.
+thereby helped to make libblxo such a successful project.
 
 
 
 Testers (sorted by name):
 --------------------------
-These people have contributed to libexo by testing the software,
+These people have contributed to libblxo by testing the software,
 reporting problems and making useful suggestions.
 
 
 
 Translators (sorted by language):
 ----------------------------------
-These people have translated libexo to foreign languages.
+These people have translated libblxo to foreign languages.
 
  Mohamed Magdy <alnokta@yahoo.com>
   * ar translations
@@ -172,4 +172,4 @@ Other contributers (sorted by name):
 ------------------------------------
 
 Matt McClinch <mattmcclinch@gmail.com>
- * ExoIconView patches
+ * BlxoIconView patches

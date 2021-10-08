@@ -1,7 +1,7 @@
 
-pixmapsdir = $(datadir)/pixmaps/exo
+pixmapsdir = $(datadir)/pixmaps/blxo
 pixmaps_DATA =								\
-	exo-thumbnail-frame.png
+	blxo-thumbnail-frame.png
 
 EXTRA_DIST =								\
 	$(pixmaps_DATA)

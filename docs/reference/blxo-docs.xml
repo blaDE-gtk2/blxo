@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                      "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+]>
+
+<book id="index" lang="en">
+  <bookinfo>
+    <title>Blxo Reference Manual</title>
+    <releaseinfo>Version <xi:include href="version.xml" parse="text"/></releaseinfo>
+    <pubdate>December 2019</pubdate>
+
+    <copyright>
+      <year>2004</year>
+      <year>2005</year>
+      <year>2006</year>
+      <year>2007</year>
+      <holder>os-cillation e.K.</holder>
+    </copyright>
+
+    <copyright>
+      <year>2009</year>
+      <year>2010</year>
+      <year>2011</year>
+      <year>2012</year>
+      <year>2013</year>
+      <year>2014</year>
+      <year>2015</year>
+      <year>2016</year>
+      <year>2017</year>
+      <year>2018</year>
+      <year>2019</year>
+      <holder>Xfce Development Team</holder>
+    </copyright>
+
+    <legalnotice id="legalnotice">
+      <para>
+        Permission is granted to copy, distribute and/or modify this document
+        under the terms of the GNU Free Documentation License, Version 1.1 or
+        any later version published by the Free Software Foundation; with no
+        Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+        Texts. The complete license text is available from the <ulink
+        type="http" url="http://www.gnu.org/">Free Software Foundation</ulink>.
+      </para>
+    </legalnotice>
+
+    <authorgroup>
+      <author>
+        <firstname>Benedikt</firstname>
+        <surname>Meurer</surname>
+        <affiliation>
+          <address><email>benny@xfce.org</email></address>
+          <orgname>os-cillation</orgname>
+          <orgdiv>System development</orgdiv>
+          <jobtitle>Software developer</jobtitle>
+        </affiliation>
+      </author>
+      <author>
+        <firstname>Jannis</firstname>
+        <surname>Pohlmann</surname>
+        <affiliation>
+          <address><email>jannis@xfce.org</email></address>
+        </affiliation>
+      </author>
+      <author>
+        <firstname>Sean</firstname>
+        <surname>Davis</surname>
+        <affiliation>
+          <address><email>bluesabre@xfce.org</email></address>
+        </affiliation>
+      </author>
+    </authorgroup>
+  </bookinfo>
+
+  <part id="blxo-overview">
+    <title>Overview</title>
+    <para>
+      <ulink type="http" url="http://libblxo.os-cillation.com/">libblxo</ulink> is an extension
+      library for <ulink url="https://xfce.org/" type="http">Xfce</ulink>,
+      developed by <ulink url="http://www.os-cillation.com/" type="http">os-cillation</ulink>.
+      While Xfce comes with quite a few libraries that are targeted at desktop development,
+      libblxo is targeted at application developement - in particular, developing applications for
+      the Xfce Desktop Environment.
+    </para>
+
+    <para>
+      The <application>blxo</application> library depends on the following libraries:
+
+      <variablelist>
+        <varlistentry>
+          <term>GLib</term>
+          <listitem>
+            <para>
+              A general-purpose utility library, not specific to graphical user interfaces.
+              GLib provides many useful data types, macros, type conversions,
+              string utilities, file utilities, a main loop abstraction, and so on.
+            </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Pango</term>
+          <listitem>
+            <para>
+              Pango is a library for internationalized text handling. It centers
+              around the <link linkend="PangoLayout">PangoLayout</link> object, representing
+              a paragraph of text.  Pango provides the engine for <link
+              linkend="GtkTextView">GtkTextView</link>, <link linkend="GtkLabel">GtkLabel</link>,
+              <link linkend="GtkEntry">GtkEntry</link>, and other widgets that display text.
+            </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>ATK</term>
+          <listitem>
+            <para>
+              ATK is the Accessibility Toolkit. It provides a set of generic
+              interfaces allowing accessibility technologies to interact with a
+              graphical user interface. For example, a screen reader uses ATK to
+              discover the text in an interface and read it to blind users.  GTK+
+              widgets have built-in support for accessibility using the ATK
+              framework.
+            </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>GdkPixbuf</term>
+          <listitem>
+            <para>
+              This is a small library which allows you to create <link linkend="GdkPixbuf">GdkPixbuf</link>
+              ("pixel buffer") objects from image data or image files. Use a <link linkend="GdkPixbuf">GdkPixbuf</link>
+              in combination with <link linkend="GtkImage">GtkImage</link> to display images.
+            </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>GDK</term>
+          <listitem>
+            <para>
+              GDK is the abstraction layer that allows GTK+ to support multiple
+              windowing systems. GDK provides drawing and window system facilities
+              on X11, Windows, and the Linux framebuffer device.
+            </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>GTK+</term>
+          <listitem>
+            <para>
+              The GTK+ library contains <firstterm>widgets</firstterm>, that is, GUI
+              components such as <link linkend="GtkButton">GtkButton</link> or
+              <link linkend="GtkTextView">GtkTextView</link>.
+            </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>libbladeutil</term>
+          <listitem>
+            <para>
+              The Xfce utility library provides various helper functions and classes for
+              C programmers, that aren't directly related to GUI tasks.
+            </para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </para>
+  </part>
+
+  <part id="blxo-toolbars">
+    <title>Editable Toolbars</title>
+
+    <para>
+      These classes together provide a framework for editable
+      toolbars based on the GtkAction facility introduced with Gtk+
+      2.4. To create editable toolbars with blxo, use the <link
+      linkend="BlxoToolbarsModel">BlxoToolbarsModel</link> class with the
+      <link linkend="BlxoToolbarsView">BlxoToolbarsView</link> widget. This
+      widget is designed around a <firstterm>Model/View/Controller</firstterm>
+      design and consists of three parts:
+
+      <simplelist>
+        <member>The toolbars widget (<structname>BlxoToolbarsView</structname>)</member>
+        <member>The toolbars model (<structname>BlxoToolbarsModel</structname>)</member>
+        <member>The toolbars editor widget (<structname>BlxoToolbarsEditor</structname>)</member>
+      </simplelist>
+
+      The <link linkend="BlxoToolbarsEditorDialog">BlxoToolbarsEditorDialog</link> widget is provided
+      for convenience, it simply wraps the <link linkend="BlxoToolbarsEditor">BlxoToolbarsEditor</link>
+      component into a <structname>GtkDialog</structname>.
+    </para>
+
+    <xi:include href="xml/blxo-toolbars-model.xml"/>
+    <xi:include href="xml/blxo-toolbars-editor.xml"/>
+    <xi:include href="xml/blxo-toolbars-editor-dialog.xml"/>
+    <xi:include href="xml/blxo-toolbars-view.xml"/>
+  </part>
+
+  <part id="blxo-widgets">
+    <title>Additional widgets</title>
+
+    <para>
+      This section describes the additional widgets provided by the <application>blxo</application> library. The <link
+      linkend="BlxoIconBar">BlxoIconBar</link>, <link linkend="BlxoIconView">BlxoIconView</link> and <link linkend="BlxoTreeView">BlxoTreeView</link>
+      are views that display data from a <link linkend="GtkTreeModel">GtkTreeModel</link>, and can be seen as extensions to the basic widgets
+      in Gtk+. For example, both <link linkend="BlxoIconView">BlxoIconView</link> and <link linkend="BlxoTreeView">BlxoTreeView</link> offer support
+      for single-click mode, which is not provided by their Gtk+ counterparts.
+    </para>
+
+    <para>
+      The <link linkend="BlxoIconChooserDialog">BlxoIconChooserDialog</link> is a special widget, that presents a dialog to let the user select
+      an icon from the current icon theme or from an image file in the file system. You should use this dialog whenever you want the user to
+      select an icon, instead of just displaying a <link linkend="GtkFileChooserDialog">GtkFileChooserDialog</link>.
+    </para>
+
+    <xi:include href="xml/blxo-icon-bar.xml"/>
+    <xi:include href="xml/blxo-icon-chooser-dialog.xml"/>
+    <xi:include href="xml/blxo-icon-view.xml"/>
+    <xi:include href="xml/blxo-tree-view.xml"/>
+    <xi:include href="xml/blxo-wrap-table.xml"/>
+  </part>
+
+  <part id="blxo-cell-renderers">
+    <title>Additional cell renderers</title>
+
+    <para>
+      Gtk+ contains various cell renderers that are intended to be used with <link linkend="GtkTreeView">GtkTreeView</link>
+      and <link linkend="GtkComboBox">GtkComboBox</link>, but are difficult to use with <link linkend="BlxoIconView">BlxoIconView</link>
+      (or even <link linkend="GtkIconView">GtkIconView</link>), mainly because the renderers do not follow the state of the view and
+      render appropriate indicators.
+    </para>
+
+    <para>
+      Because of these issues, the <link linkend="BlxoCellRendererEllipsizedText">BlxoCellRendererEllipsizedText</link> (the name of the
+      class is rather confusing) and the <link linkend="BlxoCellRendererIcon">BlxoCellRendererIcon</link> classes are provided, which
+      both include a <literal>follow-state</literal> property that tells whether the renderer should follow the state of the view and
+      draw appropriate indicators.
+    </para>
+
+    <para>
+      The <link linkend="BlxoCellRendererIcon">BlxoCellRendererIcon</link> class should also be preferred over the the <link
+      linkend="GtkCellRendererPixbuf">GtkCellRendererPixbuf</link> class when using named icons or image files because it uses a fixed
+      size for layouting and loads the icons only on-demand (utilizing the thumbnail database whenever possible).
+    </para>
+
+    <xi:include href="xml/blxo-cell-renderer-ellipsized-text.xml"/>
+    <xi:include href="xml/blxo-cell-renderer-icon.xml"/>
+  </part>
+
+  <part id="blxo-jobs">
+    <title>Framework for threaded/asynchronous jobs</title>
+
+    <para>
+      <link linkend="BlxoJob">BlxoJob</link> provides a simple way to deal with threaded/asynchronous operations (called jobs here).
+      It can be used to wrap any kind of blocking function calls like file operations or web service communication. It can be
+      subclassed to add additional signals for progress information or password requests.
+      <link linkend="BlxoSimpleJob">BlxoSimpleJob</link> is useful in situations where you don't need additional signals. It takes
+      a <link linkend="BlxoSimpleJobFunc">BlxoSimpleJobFunc</link> callback and creates a job so one doesn't have to subclass
+      <link linkend="BlxoJob">BlxoJob</link> just to execute a single function asynchronously.
+    </para>
+
+    <xi:include href="xml/blxo-job.xml"/>
+    <xi:include href="xml/blxo-simple-job.xml"/>
+  </part>
+
+  <part id="blxo-extensions">
+    <title>Extensions to existing frameworks</title>
+
+    <para>
+      This section describes extensions to existing frameworks provided by the <application>blxo</application>, that range from additional
+      methods for certain classes to specialized functions dealing with <link linkend="GdkPixbuf">GdkPixbuf</link>s.
+    </para>
+
+    <xi:include href="xml/blxo-gdk-pixbuf-extensions.xml"/>
+    <xi:include href="xml/blxo-gobject-extensions.xml"/>
+    <xi:include href="xml/blxo-gtk-extensions.xml"/>
+  </part>
+
+  <part id="blxo-miscelleanous">
+    <title>Miscelleanous</title>
+    <xi:include href="xml/blxo-config.xml"/>
+    <xi:include href="xml/blxo-binding.xml"/>
+    <xi:include href="xml/blxo-execute.xml"/>
+    <xi:include href="xml/blxo-string.xml"/>
+    <xi:include href="xml/blxo-utils.xml"/>
+    <xi:include href="xml/blxo-xsession-client.xml"/>
+  </part>
+
+  <part id="blxo-tools">
+    <title>Tools</title>
+
+    <para>
+      This part presents the tools which are shipped with the
+      <application>blxo</application> library.
+    </para>
+
+    <xi:include href="blxo-csource.xml"/>
+  </part>
+
+  <chapter>
+    <title>API Index</title>
+
+    <index id="api-index-full">
+      <title>All symbols</title>
+      <xi:include href="xml/api-index-full.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.3.1">
+      <title>Added in 0.3.1</title>
+      <xi:include href="xml/api-index-0.3.1.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.3.1.1">
+      <title>Added in 0.3.1.1</title>
+      <xi:include href="xml/api-index-0.3.1.1.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.3.1.3">
+      <title>Added in 0.3.1.3</title>
+      <xi:include href="xml/api-index-0.3.1.3.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.3.1.5">
+      <title>Added in 0.3.1.5</title>
+      <xi:include href="xml/api-index-0.3.1.5.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.3.1.9">
+      <title>Added in 0.3.1.9</title>
+      <xi:include href="xml/api-index-0.3.1.9.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.3.3">
+      <title>Added in 0.3.3</title>
+      <xi:include href="xml/api-index-0.3.3.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.4.0">
+      <title>Added in 0.4.0</title>
+      <xi:include href="xml/api-index-0.4.0.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.5.0">
+      <title>Added in 0.5.0</title>
+      <xi:include href="xml/api-index-0.5.0.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.7.1">
+      <title>Added in 0.7.1</title>
+      <xi:include href="xml/api-index-0.7.1.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.10.2">
+      <title>Added in 0.10.2</title>
+      <xi:include href="xml/api-index-0.10.2.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-0.11.4">
+      <title>Added in 0.11.4</title>
+      <xi:include href="xml/api-index-0.11.4.xml"><xi:fallback /></xi:include>
+    </index>
+
+    <index id="api-index-deprecated">
+      <title>Deprecated symbols</title>
+      <xi:include href="xml/api-index-deprecated.xml"><xi:fallback /></xi:include>
+    </index>
+  </chapter>
+
+  <chapter>
+    <title>Visual Index</title>
+    <xi:include href="visual-index.xml"/>
+  </chapter>
+
+  <index>
+    <title>Index</title>
+  </index>
+
+</book>
+
+<!--
+  vi:set ts=2 sw=2 et ai:
+-->

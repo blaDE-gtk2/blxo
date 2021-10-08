@@ -1,25 +1,25 @@
 <para role="gallery">
-  <link linkend="exo-gtk-file-chooser-add-thumbnail-preview">
-    <inlinegraphic fileref="exo-gtk-file-chooser-add-thumbnail-preview.png" format="PNG" />
+  <link linkend="blxo-gtk-file-chooser-add-thumbnail-preview">
+    <inlinegraphic fileref="blxo-gtk-file-chooser-add-thumbnail-preview.png" format="PNG" />
   </link>
 
-  <link linkend="ExoIconChooserDialog">
-    <inlinegraphic fileref="exo-icon-chooser-dialog.png" format="PNG" />
+  <link linkend="BlxoIconChooserDialog">
+    <inlinegraphic fileref="blxo-icon-chooser-dialog.png" format="PNG" />
   </link>
 
-  <link linkend="ExoToolbarsEditor">
-    <inlinegraphic fileref="exo-toolbars-editor.png" format="PNG" />
+  <link linkend="BlxoToolbarsEditor">
+    <inlinegraphic fileref="blxo-toolbars-editor.png" format="PNG" />
   </link>
 
-  <link linkend="ExoToolbarsEditorDialog">
-    <inlinegraphic fileref="exo-toolbars-editor-dialog.png" format="PNG" />
+  <link linkend="BlxoToolbarsEditorDialog">
+    <inlinegraphic fileref="blxo-toolbars-editor-dialog.png" format="PNG" />
   </link>
 
-  <link linkend="ExoToolbarsView">
-    <inlinegraphic fileref="exo-toolbars-view.png" format="PNG" />
+  <link linkend="BlxoToolbarsView">
+    <inlinegraphic fileref="blxo-toolbars-view.png" format="PNG" />
   </link>
 
-  <link linkend="ExoWrapTable">
-    <inlinegraphic fileref="exo-wrap-table.png" format="PNG" />
+  <link linkend="BlxoWrapTable">
+    <inlinegraphic fileref="blxo-wrap-table.png" format="PNG" />
   </link>
 </para>

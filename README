@@ -1,16 +1,16 @@
 What is it?
 ===========
 
-This is libexo, an extension library to Xfce, originally developed by
+This is libblxo, an extension library to Xfce, originally developed by
 os-cillation. While Xfce comes with quite a few libraries that are targeted at
-desktop development, libexo is targeted at application development.
+desktop development, libblxo is targeted at application development.
 
 
 Current state
 =============
 
-libexo is considered ready for production use. You do no longer need to
-define the EXO_API_SUBJECT_TO_CHANGE preprocessor symbol.
+libblxo is considered ready for production use. You do no longer need to
+define the BLXO_API_SUBJECT_TO_CHANGE preprocessor symbol.
 
 
 Installation
@@ -22,7 +22,7 @@ The file 'INSTALL' contains generic installation instructions.
 Debugging Support
 =================
 
-libexo currently supports four different levels of debugging support, which
+libblxo currently supports four different levels of debugging support, which
 can be setup using the configure flag `--enable-debug' (check the output of
 `configure --help'):
 
@@ -32,7 +32,7 @@ can be setup using the configure flag `--enable-debug' (check the output of
 
   `yes'     This is the default for Git snapshot builds. It adds all kinds
             of checks to the code, and is therefore likely to run slower.
-            Use this for development of libexo and locating bugs in libexo.
+            Use this for development of libblxo and locating bugs in libblxo.
 
   `minimum' This is the default for release builds. This is the recommended
             behavior.
@@ -45,7 +45,7 @@ How to report bugs?
 ===================
 
 Bugs should be reported to the Xfce bug tracking system
-(https://bugzilla.xfce.org, product Exo). You will need
+(https://bugzilla.xfce.org, product Blxo). You will need
 to create an account for yourself.
 
 Please read the HACKING file for information on where to send changes

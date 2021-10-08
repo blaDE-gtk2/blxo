@@ -1,0 +1,20 @@
+#include <blxo/blxo.h>
+
+blxo_toolbars_editor_get_type
+blxo_toolbars_editor_dialog_get_type
+blxo_toolbars_model_get_type
+blxo_toolbars_view_get_type
+
+blxo_icon_bar_get_type
+blxo_icon_chooser_dialog_get_type
+blxo_icon_view_get_type
+blxo_tree_view_get_type
+blxo_wrap_table_get_type
+
+blxo_cell_renderer_ellipsized_text_get_type
+blxo_cell_renderer_icon_get_type
+
+blxo_job_get_type
+blxo_simple_job_get_type
+
+blxo_xsession_client_get_type

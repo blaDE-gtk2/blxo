@@ -1,11 +1,11 @@
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS =								\
-	exo								\
-	exo-csource							\
-	exo-desktop-item-edit						\
-	exo-helper							\
-	exo-open							\
+	blxo								\
+	blxo-csource							\
+	blxo-desktop-item-edit						\
+	blxo-helper							\
+	blxo-open							\
 	docs								\
 	icons								\
 	pixmaps								\

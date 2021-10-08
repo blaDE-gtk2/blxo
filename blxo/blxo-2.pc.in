@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+blxo_api_version=@LIBBLXO2_VERSION_API@
+
+Name: @PACKAGE_TARNAME@
+Description: Extension library for Xfce
+Requires: gtk+-3.0 libbladeutil-1.0
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lblxo-${blxo_api_version}
+Cflags: -I${includedir}/blxo-${blxo_api_version}

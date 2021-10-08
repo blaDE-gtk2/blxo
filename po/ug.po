@@ -5,527 +5,527 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Exo\n"
+"Project-Id-Version: Blxo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-02 00:30+0200\n"
 "PO-Revision-Date: 2018-09-14 00:27+0000\n"
 "Last-Translator: Nick Schermer <nick@xfce.org>\n"
-"Language-Team: Uighur (http://www.transifex.com/xfce/exo/language/ug/)\n"
+"Language-Team: Uighur (http://www.transifex.com/xfce/blxo/language/ug/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ug\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../exo/exo-cell-renderer-ellipsized-text.c:131
-#: ../exo/exo-cell-renderer-icon.c:160
+#: ../blxo/blxo-cell-renderer-ellipsized-text.c:131
+#: ../blxo/blxo-cell-renderer-icon.c:160
 msgid "Follow state"
 msgstr "ئەھۋالغا قاراش"
 
-#: ../exo/exo-cell-renderer-ellipsized-text.c:132
-#: ../exo/exo-cell-renderer-icon.c:161
+#: ../blxo/blxo-cell-renderer-ellipsized-text.c:132
+#: ../blxo/blxo-cell-renderer-icon.c:161
 msgid "Render differently based on the selection state."
 msgstr "تاللانغانغا ئاساسەن سىزىش"
 
-#: ../exo/exo-cell-renderer-icon.c:182
+#: ../blxo/blxo-cell-renderer-icon.c:182
 msgid "Icon"
 msgstr "سىنبەلگە"
 
-#: ../exo/exo-cell-renderer-icon.c:183
+#: ../blxo/blxo-cell-renderer-icon.c:183
 msgid "The icon to render."
 msgstr "كۆرسىتىدىغان سىنبەلگە"
 
-#: ../exo/exo-cell-renderer-icon.c:201
+#: ../blxo/blxo-cell-renderer-icon.c:201
 msgid "GIcon"
 msgstr "GIcon"
 
-#: ../exo/exo-cell-renderer-icon.c:202
+#: ../blxo/blxo-cell-renderer-icon.c:202
 msgid "The GIcon to render."
 msgstr "سىزىدىغان GIcon."
 
-#: ../exo/exo-cell-renderer-icon.c:223
+#: ../blxo/blxo-cell-renderer-icon.c:223
 msgid "size"
 msgstr "چوڭلۇقى"
 
-#: ../exo/exo-cell-renderer-icon.c:224
+#: ../blxo/blxo-cell-renderer-icon.c:224
 msgid "The size of the icon to render in pixels."
 msgstr "كۆرسىتىدىغان سىنبەلگىنىڭ چوڭلۇقى(بىرلىكى پىكسېل)"
 
-#: ../exo/exo-gdk-pixbuf-extensions.c:787
+#: ../blxo/blxo-gdk-pixbuf-extensions.c:787
 #, c-format
 msgid "Failed to open file \"%s\": %s"
 msgstr "ھۆججەت «%s» نى ئاچالمىدى: %s"
 
-#: ../exo/exo-gdk-pixbuf-extensions.c:855
+#: ../blxo/blxo-gdk-pixbuf-extensions.c:855
 #, c-format
 msgid "Failed to read file \"%s\": %s"
 msgstr "ھۆججەت «%s» نى ئوقۇيالمىدى: %s"
 
-#: ../exo/exo-gdk-pixbuf-extensions.c:896
+#: ../blxo/blxo-gdk-pixbuf-extensions.c:896
 #, c-format
 msgid "Failed to load image \"%s\": Unknown reason, probably a corrupt image file"
 msgstr "رەسىم «%s» نى ئوقۇش مەغلۇپ بولدى،: نامەلۇم سەۋەب،  رەسىم ھۆججىتى بۇزۇلغان بولۇشى مۇمكىن"
 
-#: ../exo/exo-gtk-extensions.c:248
+#: ../blxo/blxo-gtk-extensions.c:248
 #, c-format
 msgid "Failed to open \"%s\"."
 msgstr "«%s» نى ئېچىشتا خاتالىق كۆرۈلدى."
 
-#: ../exo/exo-icon-bar.c:277 ../exo/exo-icon-view.c:928
+#: ../blxo/blxo-icon-bar.c:277 ../blxo/blxo-icon-view.c:928
 msgid "Orientation"
 msgstr "يۆنىلىشى"
 
-#: ../exo/exo-icon-bar.c:278
+#: ../blxo/blxo-icon-bar.c:278
 msgid "The orientation of the iconbar"
 msgstr "سىنبەلگە بالدىقىنىڭ يۆنىلىشى"
 
-#: ../exo/exo-icon-bar.c:294 ../exo/exo-icon-view.c:945
+#: ../blxo/blxo-icon-bar.c:294 ../blxo/blxo-icon-view.c:945
 msgid "Pixbuf column"
 msgstr "Pixbuf ئىستونى"
 
-#: ../exo/exo-icon-bar.c:295 ../exo/exo-icon-view.c:946
+#: ../blxo/blxo-icon-bar.c:295 ../blxo/blxo-icon-view.c:946
 msgid "Model column used to retrieve the icon pixbuf from"
 msgstr "سىنبەلگە pixbuf  دىن ئىزدەشتە ئىشلىتىدىغان مودېل ئىستونى"
 
-#: ../exo/exo-icon-bar.c:310 ../exo/exo-icon-view.c:1090
+#: ../blxo/blxo-icon-bar.c:310 ../blxo/blxo-icon-view.c:1090
 msgid "Text column"
 msgstr "تېكىست ئىستونى"
 
-#: ../exo/exo-icon-bar.c:311 ../exo/exo-icon-view.c:1091
+#: ../blxo/blxo-icon-bar.c:311 ../blxo/blxo-icon-view.c:1091
 msgid "Model column used to retrieve the text from"
 msgstr "تېكىستتىن ئىزدەشتە ئىشلىتىلىدىغان مودېل ئىستونى"
 
-#: ../exo/exo-icon-bar.c:323
+#: ../blxo/blxo-icon-bar.c:323
 msgid "Icon Bar Model"
 msgstr "سىنبەلگە بالدىقى مودېلى"
 
-#: ../exo/exo-icon-bar.c:324
+#: ../blxo/blxo-icon-bar.c:324
 msgid "Model for the icon bar"
 msgstr "سىنبەلگە بالدىقىنىڭ مودېلى"
 
-#: ../exo/exo-icon-bar.c:340
+#: ../blxo/blxo-icon-bar.c:340
 msgid "Active"
 msgstr "ئاكتىپ"
 
-#: ../exo/exo-icon-bar.c:341
+#: ../blxo/blxo-icon-bar.c:341
 msgid "Active item index"
 msgstr "ئاكتىپ تۈرنىڭ ئىندېكسى"
 
-#: ../exo/exo-icon-bar.c:347 ../exo/exo-icon-bar.c:348
+#: ../blxo/blxo-icon-bar.c:347 ../blxo/blxo-icon-bar.c:348
 msgid "Active item fill color"
 msgstr "ئاكتىپ تۈرنىڭ رەڭگى"
 
-#: ../exo/exo-icon-bar.c:354 ../exo/exo-icon-bar.c:355
+#: ../blxo/blxo-icon-bar.c:354 ../blxo/blxo-icon-bar.c:355
 msgid "Active item border color"
 msgstr "ئاكتىپ تۈرنىڭ گىرۋەك رەڭگى"
 
-#: ../exo/exo-icon-bar.c:361 ../exo/exo-icon-bar.c:362
+#: ../blxo/blxo-icon-bar.c:361 ../blxo/blxo-icon-bar.c:362
 msgid "Active item text color"
 msgstr "ئاكتىپ تۈرنىڭ تېكىستىنىڭ رېڭى"
 
-#: ../exo/exo-icon-bar.c:368 ../exo/exo-icon-bar.c:369
+#: ../blxo/blxo-icon-bar.c:368 ../blxo/blxo-icon-bar.c:369
 msgid "Cursor item fill color"
 msgstr "نۇربەلگىنىڭ رەڭگى"
 
-#: ../exo/exo-icon-bar.c:375 ../exo/exo-icon-bar.c:376
+#: ../blxo/blxo-icon-bar.c:375 ../blxo/blxo-icon-bar.c:376
 msgid "Cursor item border color"
 msgstr "نۇربەلگىنىڭ گىرۋىكىنىڭ رەڭگى"
 
-#: ../exo/exo-icon-bar.c:382 ../exo/exo-icon-bar.c:383
+#: ../blxo/blxo-icon-bar.c:382 ../blxo/blxo-icon-bar.c:383
 msgid "Cursor item text color"
 msgstr "نۇربەلگىنىڭ تېكىستىڭ رېڭى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_ACTIONS
-#: ../exo/exo-icon-chooser-dialog.c:105
+#. BLXO_ICON_CHOOSER_CONTEXT_ACTIONS
+#: ../blxo/blxo-icon-chooser-dialog.c:105
 msgid "Action Icons"
 msgstr "مەشغۇلات سىنبەلگىلىرى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_ANIMATIONS
-#: ../exo/exo-icon-chooser-dialog.c:107
+#. BLXO_ICON_CHOOSER_CONTEXT_ANIMATIONS
+#: ../blxo/blxo-icon-chooser-dialog.c:107
 msgid "Animations"
 msgstr "جانلاندۇرۇملار"
 
-#. EXO_ICON_CHOOSER_CONTEXT_APPLICATIONS
-#: ../exo/exo-icon-chooser-dialog.c:109
+#. BLXO_ICON_CHOOSER_CONTEXT_APPLICATIONS
+#: ../blxo/blxo-icon-chooser-dialog.c:109
 msgid "Application Icons"
 msgstr "پروگرامما سىنبەلگىسى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_CATEGORIES
-#: ../exo/exo-icon-chooser-dialog.c:111
+#. BLXO_ICON_CHOOSER_CONTEXT_CATEGORIES
+#: ../blxo/blxo-icon-chooser-dialog.c:111
 msgid "Menu Icons"
 msgstr "تىزىملىك سىنبەلگىسى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_DEVICES
-#: ../exo/exo-icon-chooser-dialog.c:113
+#. BLXO_ICON_CHOOSER_CONTEXT_DEVICES
+#: ../blxo/blxo-icon-chooser-dialog.c:113
 msgid "Device Icons"
 msgstr "ئۈسكۈنە سىنبەلگىسى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_EMBLEMS
-#: ../exo/exo-icon-chooser-dialog.c:115
+#. BLXO_ICON_CHOOSER_CONTEXT_EMBLEMS
+#: ../blxo/blxo-icon-chooser-dialog.c:115
 msgid "Emblems"
 msgstr "كاكار"
 
-#. EXO_ICON_CHOOSER_CONTEXT_EMOTES
-#: ../exo/exo-icon-chooser-dialog.c:117
+#. BLXO_ICON_CHOOSER_CONTEXT_EMOTES
+#: ../blxo/blxo-icon-chooser-dialog.c:117
 msgid "Emoticons"
 msgstr "چىراي ئىپادىلىرى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_MIME_TYPES
-#: ../exo/exo-icon-chooser-dialog.c:119
+#. BLXO_ICON_CHOOSER_CONTEXT_MIME_TYPES
+#: ../blxo/blxo-icon-chooser-dialog.c:119
 msgid "File Type Icons"
 msgstr "ھۆججەت تىپى سىنبەلگىلىرى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_PLACES
-#: ../exo/exo-icon-chooser-dialog.c:121
+#. BLXO_ICON_CHOOSER_CONTEXT_PLACES
+#: ../blxo/blxo-icon-chooser-dialog.c:121
 msgid "Location Icons"
 msgstr "ئورۇن سىنبەلگىلىرى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_STATUS
-#: ../exo/exo-icon-chooser-dialog.c:123
+#. BLXO_ICON_CHOOSER_CONTEXT_STATUS
+#: ../blxo/blxo-icon-chooser-dialog.c:123
 msgid "Status Icons"
 msgstr "ھالەت سىنبەلگىلىرى"
 
-#. EXO_ICON_CHOOSER_CONTEXT_STOCK
-#: ../exo/exo-icon-chooser-dialog.c:125
+#. BLXO_ICON_CHOOSER_CONTEXT_STOCK
+#: ../blxo/blxo-icon-chooser-dialog.c:125
 msgid "Stock Icons"
 msgstr ""
 
-#. EXO_ICON_CHOOSER_CONTEXT_OTHER
-#: ../exo/exo-icon-chooser-dialog.c:127
+#. BLXO_ICON_CHOOSER_CONTEXT_OTHER
+#: ../blxo/blxo-icon-chooser-dialog.c:127
 msgid "Uncategorized Icons"
 msgstr "تۈرگە ئايرىلمىغان سىنبەلگىلەر"
 
-#. EXO_ICON_CHOOSER_CONTEXT_ALL
-#: ../exo/exo-icon-chooser-dialog.c:131
+#. BLXO_ICON_CHOOSER_CONTEXT_ALL
+#: ../blxo/blxo-icon-chooser-dialog.c:131
 msgid "All Icons"
 msgstr "بارلىق سىنبەلگىلەر"
 
-#. EXO_ICON_CHOOSER_CONTEXT_FILE
-#: ../exo/exo-icon-chooser-dialog.c:135 ../exo/exo-icon-chooser-dialog.c:311
+#. BLXO_ICON_CHOOSER_CONTEXT_FILE
+#: ../blxo/blxo-icon-chooser-dialog.c:135 ../blxo/blxo-icon-chooser-dialog.c:311
 msgid "Image Files"
 msgstr "رەسىم ھۆججەتلىرى"
 
 #. setup the context combo box
-#: ../exo/exo-icon-chooser-dialog.c:219
+#: ../blxo/blxo-icon-chooser-dialog.c:219
 msgid "Select _icon from:"
 msgstr "سىنبەلگە تاللا(_I):"
 
 #. search filter
-#: ../exo/exo-icon-chooser-dialog.c:243
+#: ../blxo/blxo-icon-chooser-dialog.c:243
 msgid "_Search icon:"
 msgstr "سىنبەلگە ئىزدە:(_S)"
 
-#: ../exo/exo-icon-chooser-dialog.c:262
+#: ../blxo/blxo-icon-chooser-dialog.c:262
 msgid "Clear search field"
 msgstr "ئىزدەش كۆزنەكچىسىنى تازىلا"
 
-#: ../exo/exo-icon-view.c:796
+#: ../blxo/blxo-icon-view.c:796
 msgid "Column Spacing"
 msgstr "ئىستوننىڭ بوشلۇقى"
 
-#: ../exo/exo-icon-view.c:797
+#: ../blxo/blxo-icon-view.c:797
 msgid "Space which is inserted between grid column"
 msgstr "كاتەكچە ئارىسىدىكى بوشلۇق"
 
-#: ../exo/exo-icon-view.c:813
+#: ../blxo/blxo-icon-view.c:813
 msgid "Number of columns"
 msgstr "ئىستون سانى"
 
-#: ../exo/exo-icon-view.c:814
+#: ../blxo/blxo-icon-view.c:814
 msgid "Number of columns to display"
 msgstr "كۆرسىتىدىغان ئىستون سانى"
 
-#: ../exo/exo-icon-view.c:828
+#: ../blxo/blxo-icon-view.c:828
 msgid "Enable Search"
 msgstr "ئىزدەشكە بولىدۇ"
 
-#: ../exo/exo-icon-view.c:829
+#: ../blxo/blxo-icon-view.c:829
 msgid "View allows user to search through columns interactively"
 msgstr "كۆرسىتىش ئىستونىنى ئۆز-ئارا ماسلاشتۇرۇپ ئىزدىيەلەيدىغان قىلىش"
 
-#: ../exo/exo-icon-view.c:846
+#: ../blxo/blxo-icon-view.c:846
 msgid "Width for each item"
 msgstr "ھەر بىر تۈرنىڭ كەڭلىكى"
 
-#: ../exo/exo-icon-view.c:847
+#: ../blxo/blxo-icon-view.c:847
 msgid "The width used for each item"
 msgstr "ھەر بىر تۈردە ئىشلىتىلىدىغان كەڭلىك"
 
-#: ../exo/exo-icon-view.c:865
+#: ../blxo/blxo-icon-view.c:865
 msgid "Layout mode"
 msgstr "Layout ھالىتى"
 
-#: ../exo/exo-icon-view.c:866
+#: ../blxo/blxo-icon-view.c:866
 msgid "The layout mode"
 msgstr "Layout ھالىتى"
 
-#: ../exo/exo-icon-view.c:882
+#: ../blxo/blxo-icon-view.c:882
 msgid "Margin"
 msgstr "گىرۋەكتىكى بوشلۇق"
 
-#: ../exo/exo-icon-view.c:883
+#: ../blxo/blxo-icon-view.c:883
 msgid "Space which is inserted at the edges of the icon view"
 msgstr "سىنبەلگىنىڭ گىرۋىكىگە قىستۇرۇلغان بوشلۇق"
 
-#: ../exo/exo-icon-view.c:899
+#: ../blxo/blxo-icon-view.c:899
 msgid "Markup column"
 msgstr "Markup ئىستونى"
 
-#: ../exo/exo-icon-view.c:900
+#: ../blxo/blxo-icon-view.c:900
 msgid "Model column used to retrieve the text if using Pango markup"
 msgstr "Pango markup ئىشلىتىلگەن ۋاقىتتا تېكىستتىن ئىزدەشتە ئىشلىتىلىدىغان مودېل ئىستونى"
 
-#: ../exo/exo-icon-view.c:914
+#: ../blxo/blxo-icon-view.c:914
 msgid "Icon View Model"
 msgstr "سىنبەلگىنىڭ view مودېلى"
 
-#: ../exo/exo-icon-view.c:915
+#: ../blxo/blxo-icon-view.c:915
 msgid "The model for the icon view"
 msgstr "سىنبەلگە كۆرسىتىش ئۈچۈن ئىشلىتىدىغان مودېل"
 
-#: ../exo/exo-icon-view.c:929
+#: ../blxo/blxo-icon-view.c:929
 msgid ""
 "How the text and icon of each item are positioned relative to each other"
 msgstr "ھەربىر تېكىست ۋە سىنبەلگىنىڭ قايسى ئورۇندا ئىكەنلىكىنى بەلگىلەش"
 
-#: ../exo/exo-icon-view.c:963
+#: ../blxo/blxo-icon-view.c:963
 msgid "Icon column"
 msgstr ""
 
-#: ../exo/exo-icon-view.c:964
+#: ../blxo/blxo-icon-view.c:964
 msgid ""
 "Model column used to retrieve the absolute path of an image file to render"
 msgstr ""
 
-#: ../exo/exo-icon-view.c:979
+#: ../blxo/blxo-icon-view.c:979
 msgid "Reorderable"
 msgstr "تەرتىپىنى ئۆزگەرتكىلى بولىدۇ"
 
-#: ../exo/exo-icon-view.c:980
+#: ../blxo/blxo-icon-view.c:980
 msgid "View is reorderable"
 msgstr "view تەرتىپىنى ئۆزگەرتكىلى بولىدۇ"
 
-#: ../exo/exo-icon-view.c:995
+#: ../blxo/blxo-icon-view.c:995
 msgid "Row Spacing"
 msgstr "قۇر ئارىلىقى"
 
-#: ../exo/exo-icon-view.c:996
+#: ../blxo/blxo-icon-view.c:996
 msgid "Space which is inserted between grid rows"
 msgstr "قۇرلار ئارىسىدىكى بوشلۇق"
 
-#: ../exo/exo-icon-view.c:1010
+#: ../blxo/blxo-icon-view.c:1010
 msgid "Search Column"
 msgstr "ئىزدەش ئىستونى"
 
-#: ../exo/exo-icon-view.c:1011
+#: ../blxo/blxo-icon-view.c:1011
 msgid "Model column to search through when searching through item"
 msgstr "item لارنى ئىزدەشتە ئىشلىتىلىدىغان مودېل ئىستونى"
 
-#: ../exo/exo-icon-view.c:1025
+#: ../blxo/blxo-icon-view.c:1025
 msgid "Selection mode"
 msgstr "تاللاش ھالىتى"
 
-#: ../exo/exo-icon-view.c:1026
+#: ../blxo/blxo-icon-view.c:1026
 msgid "The selection mode"
 msgstr "تاللاش ھالىتى"
 
-#: ../exo/exo-icon-view.c:1041 ../exo/exo-tree-view.c:166
+#: ../blxo/blxo-icon-view.c:1041 ../blxo/blxo-tree-view.c:166
 msgid "Single Click"
 msgstr "بىرلا چېكىش"
 
-#: ../exo/exo-icon-view.c:1042 ../exo/exo-tree-view.c:167
+#: ../blxo/blxo-icon-view.c:1042 ../blxo/blxo-tree-view.c:167
 msgid "Whether the items in the view can be activated with single clicks"
 msgstr "View دىكى تۈرلەرنى بىرلا چېكىپ ئاكتىپلاش"
 
-#: ../exo/exo-icon-view.c:1058 ../exo/exo-tree-view.c:183
+#: ../blxo/blxo-icon-view.c:1058 ../blxo/blxo-tree-view.c:183
 msgid "Single Click Timeout"
 msgstr "بىرلا چېكىش ۋاقىت چېكى"
 
-#: ../exo/exo-icon-view.c:1059 ../exo/exo-tree-view.c:184
+#: ../blxo/blxo-icon-view.c:1059 ../blxo/blxo-tree-view.c:184
 msgid ""
 "The amount of time after which the item under the mouse cursor will be "
 "selected automatically in single click mode"
 msgstr "بىرلا چېكىپ تاللاش ھالىتىدە،  چاشقىنەك بار يەردىكى تۈرنى ئاپتوماتىك تاللاش ئۈچۈن چاشقىنەكنىڭ جىم تۇرۇش ۋاقتى"
 
-#: ../exo/exo-icon-view.c:1074
+#: ../blxo/blxo-icon-view.c:1074
 msgid "Spacing"
 msgstr "بوشلۇق"
 
-#: ../exo/exo-icon-view.c:1075
+#: ../blxo/blxo-icon-view.c:1075
 msgid "Space which is inserted between cells of an item"
 msgstr "تۈر كاتەكچىسى ئارىسىدىكى بوشلۇق"
 
-#: ../exo/exo-thumbnail-preview.c:120
+#: ../blxo/blxo-thumbnail-preview.c:120
 msgid "Preview"
 msgstr "ئالدىن كۆرۈش"
 
-#: ../exo/exo-thumbnail-preview.c:141 ../exo/exo-thumbnail-preview.c:286
+#: ../blxo/blxo-thumbnail-preview.c:141 ../blxo/blxo-thumbnail-preview.c:286
 msgid "No file selected"
 msgstr "ھۆججەت تاللانمىدى"
 
-#: ../exo/exo-thumbnail-preview.c:304
+#: ../blxo/blxo-thumbnail-preview.c:304
 msgid "Block Device"
 msgstr "Block تىپىدىكى ئۈسكۈنە"
 
-#: ../exo/exo-thumbnail-preview.c:309
+#: ../blxo/blxo-thumbnail-preview.c:309
 msgid "Character Device"
 msgstr "Character تىپىدىكى ئۈسكۈنە"
 
-#: ../exo/exo-thumbnail-preview.c:314
+#: ../blxo/blxo-thumbnail-preview.c:314
 msgid "Folder"
 msgstr "مۇندەرىجە"
 
-#: ../exo/exo-thumbnail-preview.c:319
+#: ../blxo/blxo-thumbnail-preview.c:319
 msgid "FIFO"
 msgstr "FIFO"
 
-#: ../exo/exo-thumbnail-preview.c:324
+#: ../blxo/blxo-thumbnail-preview.c:324
 msgid "Socket"
 msgstr "Socket"
 
-#: ../exo/exo-toolbars-editor-dialog.c:118
+#: ../blxo/blxo-toolbars-editor-dialog.c:118
 msgid "_Add a new toolbar"
 msgstr "يېڭىدىن قورال بالدىقى قوشۇش(_A)"
 
-#: ../exo/exo-toolbars-editor.c:221
+#: ../blxo/blxo-toolbars-editor.c:221
 msgid ""
 "Drag an item onto the toolbars above to add it, from the toolbars in the "
 "items table to remove it."
 msgstr "قوشماقچى بولغان تۈرنى قورال بالدىقىغا تۇتۇپ تاشلاڭ، قورال بالدىقى تۇتۇپ ئالسىڭىز تۈر ئۆچۈرۈلىدۇ."
 
-#: ../exo/exo-toolbars-editor.c:537
+#: ../blxo/blxo-toolbars-editor.c:537
 msgid "Separator"
 msgstr "ئايرىغۇچ"
 
-#: ../exo/exo-toolbars-view.c:755
+#: ../blxo/blxo-toolbars-view.c:755
 msgid "Toolbar _Style"
 msgstr "قورال بالدىقىنىڭ ئۇسلۇبى(_S)"
 
-#: ../exo/exo-toolbars-view.c:762
+#: ../blxo/blxo-toolbars-view.c:762
 msgid "_Desktop Default"
 msgstr "ئۈستەلئۈستى ئەسلى ھالىتى"
 
-#: ../exo/exo-toolbars-view.c:771
+#: ../blxo/blxo-toolbars-view.c:771
 msgid "_Icons only"
 msgstr "سىنبەلگىلا(_I)"
 
-#: ../exo/exo-toolbars-view.c:780
+#: ../blxo/blxo-toolbars-view.c:780
 msgid "_Text only"
 msgstr "تېكىستلا(_T)"
 
-#: ../exo/exo-toolbars-view.c:789
+#: ../blxo/blxo-toolbars-view.c:789
 msgid "Text for _All Icons"
 msgstr "بارلىق سىنبەلگىلەرگە تېكىست قوشۇش(_A)"
 
-#: ../exo/exo-toolbars-view.c:798
+#: ../blxo/blxo-toolbars-view.c:798
 msgid "Text for I_mportant Icons"
 msgstr "مۇھىم سىنبەلگىلەرگە تېكىست قوشۇش(_M)"
 
-#: ../exo/exo-toolbars-view.c:806
+#: ../blxo/blxo-toolbars-view.c:806
 msgid "_Remove Toolbar"
 msgstr "قورال بالدىقىنى ئۆچۈرۈش(_R)"
 
-#: ../exo/exo-toolbars-view.c:821
+#: ../blxo/blxo-toolbars-view.c:821
 msgid "Customize Toolbar..."
 msgstr "قورال بالدىقىنى ئۆزلەشتۈرۈش..."
 
-#: ../exo/exo-wrap-table.c:148
+#: ../blxo/blxo-wrap-table.c:148
 msgid "Column spacing"
 msgstr "ئىستون بوشلۇقى"
 
-#: ../exo/exo-wrap-table.c:149
+#: ../blxo/blxo-wrap-table.c:149
 msgid "The amount of space between two consecutive columns"
 msgstr "ئارقىمۇئارقا كەلگەن ئىككى ئىستوننىڭ ئارىسىدىكى بوشلۇق"
 
-#: ../exo/exo-wrap-table.c:163
+#: ../blxo/blxo-wrap-table.c:163
 msgid "Row spacing"
 msgstr "قۇر بوشلۇقى"
 
-#: ../exo/exo-wrap-table.c:164
+#: ../blxo/blxo-wrap-table.c:164
 msgid "The amount of space between two consecutive rows"
 msgstr "ئارقىمۇئارقا كەلگەن ئىككى قۇرنىڭ ئارىسىدىكى بوشلۇق"
 
-#: ../exo/exo-wrap-table.c:178
+#: ../blxo/blxo-wrap-table.c:178
 msgid "Homogeneous"
 msgstr "تەكشى"
 
-#: ../exo/exo-wrap-table.c:179
+#: ../blxo/blxo-wrap-table.c:179
 msgid "Whether the children should be all the same size"
 msgstr "بارلىق بالا كۆزنەكلەرنى ئوخشاش قىلىدىغان قىلمايدىغانلىقنى بەلگىلەيدۇ"
 
-#: ../exo/exo-xsession-client.c:210
+#: ../blxo/blxo-xsession-client.c:210
 msgid "Window group"
 msgstr "كۆزنەك گۇرۇپپىسى"
 
-#: ../exo/exo-xsession-client.c:211
+#: ../blxo/blxo-xsession-client.c:211
 msgid "Window group leader"
 msgstr "كۆزنەك گۇرۇپپىسى باشلىقى"
 
-#: ../exo/exo-xsession-client.c:221
+#: ../blxo/blxo-xsession-client.c:221
 msgid "Restart command"
 msgstr "قايتا باشلاش بۇيرۇقى"
 
-#: ../exo/exo-xsession-client.c:222
+#: ../blxo/blxo-xsession-client.c:222
 msgid "Session restart command"
 msgstr "ئەڭگىمەنى قايتا باشلاش بۇيرۇقى"
 
-#: ../exo-csource/main.c:303
+#: ../blxo-csource/main.c:303
 #, c-format
 msgid "Usage: %s [options] [file]\n"
 msgstr "ئىشلىتىش ئۇسۇلى: %s [تاللانمىلار][ھۆججەت]\n"
 
-#: ../exo-csource/main.c:304
+#: ../blxo-csource/main.c:304
 #, c-format
 msgid "       %s [options] --build-list [[name file]...]\n"
 msgstr "       %s [تاللانمىلار] --build-list [[ھۆججەت نامى]...]\n"
 
-#: ../exo-csource/main.c:306
+#: ../blxo-csource/main.c:306
 #, c-format
 msgid "  -h, --help        Print this help message and exit\n"
 msgstr "  -h, --help        ياردەم ئۇچۇرنى چىقىرىدۇ ۋە چېكىنىدۇ\n"
 
-#: ../exo-csource/main.c:307
+#: ../blxo-csource/main.c:307
 #, c-format
 msgid "  -V, --version     Print version information and exit\n"
 msgstr "  -V, --version     نەشر ئۇچۇرنى چىقىرىدۇ ۋە چېكىنىدۇ\n"
 
-#: ../exo-csource/main.c:308
+#: ../blxo-csource/main.c:308
 #, c-format
 msgid "  --extern          Generate extern symbols\n"
 msgstr "  --extern          extern بەلگىلەرنى ھاسىل قىلىدۇ\n"
 
-#: ../exo-csource/main.c:309
+#: ../blxo-csource/main.c:309
 #, c-format
 msgid "  --static          Generate static symbols\n"
 msgstr "  --static          static بەلگىلەرنى ھاسىل قىلىدۇ\n"
 
-#: ../exo-csource/main.c:310
+#: ../blxo-csource/main.c:310
 #, c-format
 msgid "  --name=identifier C macro/variable name\n"
 msgstr "  --name=identifier C ماكرو/ئۆزگەرگۈچى ئاتى\n"
 
-#: ../exo-csource/main.c:311
+#: ../blxo-csource/main.c:311
 #, c-format
 msgid "  --build-list      Parse (name, file) pairs\n"
 msgstr "  --build-list      (نام،ھۆججەت) نىڭ جۈپىگە پارچىلايدۇ\n"
 
-#: ../exo-csource/main.c:312
+#: ../blxo-csource/main.c:312
 #, c-format
 msgid "  --strip-comments  Remove comments from XML files\n"
 msgstr "  --strip-comments  XML ھۆججەتنىڭ تەركىبىدىكى ئىزاھاتلارنى ئۆچۈرىدۇ\n"
 
-#: ../exo-csource/main.c:313
+#: ../blxo-csource/main.c:313
 #, c-format
 msgid "  --strip-content   Remove node contents from XML files\n"
 msgstr "  --strip-content   XML ھۆججەتنىڭ تەركىبىدىكى تۈگۈن ئۇچۇرلىرىنى ئۆچۈرىدۇ\n"
 
-#: ../exo-csource/main.c:314
+#: ../blxo-csource/main.c:314
 #, c-format
 msgid "  --output=filename Write generated csource to specified file\n"
 msgstr ""
 
-#: ../exo-csource/main.c:324 ../exo-desktop-item-edit/main.c:196
-#: ../exo-open/main.c:509
+#: ../blxo-csource/main.c:324 ../blxo-desktop-item-edit/main.c:196
+#: ../blxo-open/main.c:509
 #, c-format
 msgid ""
 "Copyright (c) %s\n"
@@ -535,8 +535,8 @@ msgid ""
 "\n"
 msgstr "Copyright (c) %s\n        os-cillation e.K. All rights reserved.\n\nBenedikt Meurer <benny@xfce.org> ئىشلىگەن.\n\n"
 
-#: ../exo-csource/main.c:328 ../exo-desktop-item-edit/main.c:200
-#: ../exo-open/main.c:513
+#: ../blxo-csource/main.c:328 ../blxo-desktop-item-edit/main.c:200
+#: ../blxo-open/main.c:513
 #, c-format
 msgid ""
 "%s comes with ABSOLUTELY NO WARRANTY,\n"
@@ -546,124 +546,124 @@ msgid ""
 "\n"
 msgstr "%s ھېچقانداق كاپالەتكە ئىگە ئەمەس,\nYou may redistribute copies of %s under the terms of\nthe GNU Lesser General Public License which can be found in the\n%s source package.\n\n"
 
-#: ../exo-csource/main.c:332 ../exo-desktop-item-edit/main.c:204
-#: ../exo-open/main.c:517
+#: ../blxo-csource/main.c:332 ../blxo-desktop-item-edit/main.c:204
+#: ../blxo-open/main.c:517
 #, c-format
 msgid "Please report bugs to <%s>.\n"
 msgstr "كەمتۈكنى <%s> غا دوكلات قىلىڭ.\n"
 
 #. allocate the file chooser
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:257
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:257
 msgid "Select an Application"
 msgstr "پروگرامما تاللاش"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:260
-#: ../exo-desktop-item-edit/exo-die-editor.c:594
-#: ../exo-desktop-item-edit/exo-die-editor.c:638
-#: ../exo-desktop-item-edit/main.c:326 ../exo-desktop-item-edit/main.c:517
-#: ../exo-helper/exo-helper-chooser.c:395
-#: ../exo-helper/exo-helper-chooser.c:540
-#: ../exo-helper/exo-helper-launcher-dialog.c:109
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:260
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:594
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:638
+#: ../blxo-desktop-item-edit/main.c:326 ../blxo-desktop-item-edit/main.c:517
+#: ../blxo-helper/blxo-helper-chooser.c:395
+#: ../blxo-helper/blxo-helper-chooser.c:540
+#: ../blxo-helper/blxo-helper-launcher-dialog.c:109
 msgid "_Cancel"
 msgstr "ۋاز كەچ(_C)"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:261
-#: ../exo-helper/exo-helper-chooser.c:396
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:261
+#: ../blxo-helper/blxo-helper-chooser.c:396
 msgid "_Open"
 msgstr "ئاچ(_O)"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:266
-#: ../exo-helper/exo-helper-chooser.c:402
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:266
+#: ../blxo-helper/blxo-helper-chooser.c:402
 msgid "All Files"
 msgstr "ھەممە ھۆججەتلەر"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:271
-#: ../exo-helper/exo-helper-chooser.c:407
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:271
+#: ../blxo-helper/blxo-helper-chooser.c:407
 msgid "Executable Files"
 msgstr "پروگرامما(ئىجرا بولىدىغان ھۆججەت)"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:286
-#: ../exo-helper/exo-helper-chooser.c:422
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:286
+#: ../blxo-helper/blxo-helper-chooser.c:422
 msgid "Perl Scripts"
 msgstr "Perl پروگراممىسى"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:292
-#: ../exo-helper/exo-helper-chooser.c:428
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:292
+#: ../blxo-helper/blxo-helper-chooser.c:428
 msgid "Python Scripts"
 msgstr "Python پروگراممىسى"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:298
-#: ../exo-helper/exo-helper-chooser.c:434
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:298
+#: ../blxo-helper/blxo-helper-chooser.c:434
 msgid "Ruby Scripts"
 msgstr "Ruby پروگراممىسى"
 
-#: ../exo-desktop-item-edit/exo-die-command-entry.c:304
-#: ../exo-helper/exo-helper-chooser.c:440
+#: ../blxo-desktop-item-edit/blxo-die-command-entry.c:304
+#: ../blxo-helper/blxo-helper-chooser.c:440
 msgid "Shell Scripts"
 msgstr "Shell پروگراممىسى"
 
-#: ../exo-desktop-item-edit/exo-die-desktop-model.c:288
+#: ../blxo-desktop-item-edit/blxo-die-desktop-model.c:288
 #, c-format
 msgid "Create Launcher <b>%s</b>"
 msgstr "ئىجراچى <b>%s</b> قۇرۇش"
 
 #. TRANSLATORS: Label in "Create Launcher"/"Create Link" dialog, make sure to
 #. avoid mnemonic conflicts
-#: ../exo-desktop-item-edit/exo-die-editor.c:295
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:295
 msgid "_Name:"
 msgstr "ئاتى(_N):"
 
 #. TRANSLATORS: Label in "Create Launcher"/"Create Link" dialog, make sure to
 #. avoid mnemonic conflicts
-#: ../exo-desktop-item-edit/exo-die-editor.c:312
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:312
 msgid "C_omment:"
 msgstr "ئىزاھات(_O):"
 
 #. TRANSLATORS: Label in "Create Launcher" dialog, make sure to avoid mnemonic
 #. conflicts
-#: ../exo-desktop-item-edit/exo-die-editor.c:329
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:329
 msgid "Comm_and:"
 msgstr "بۇيرۇق(_A):"
 
 #. TRANSLATORS: Label in "Create Link" dialog, make sure to avoid mnemonic
 #. conflicts
-#: ../exo-desktop-item-edit/exo-die-editor.c:345
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:345
 msgid "_URL:"
 msgstr "URL(_U):"
 
 #. TRANSLATORS: Label in "Create Launcher" dialog, make sure to avoid mnemonic
 #. conflicts
-#: ../exo-desktop-item-edit/exo-die-editor.c:362
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:362
 msgid "Working _Directory:"
 msgstr "خىزمەت مۇندەرىجىسى(_D):"
 
 #. TRANSLATORS: Label in "Create Launcher"/"Create Link" dialog, make sure to
 #. avoid mnemonic conflicts
-#: ../exo-desktop-item-edit/exo-die-editor.c:392
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:392
 msgid "_Icon:"
 msgstr "سىنبەلگە(_I):"
 
 #. TRANSLATORS: Label for the icon button in "Create Launcher"/"Create Link"
 #. dialog if no icon selected
 #. setup a label to tell that no icon was selected
-#: ../exo-desktop-item-edit/exo-die-editor.c:406
-#: ../exo-desktop-item-edit/exo-die-editor.c:1227
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:406
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:1227
 msgid "No icon"
 msgstr "سىنبەلگە يوق"
 
-#: ../exo-desktop-item-edit/exo-die-editor.c:412
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:412
 msgid "Options:"
 msgstr "تاللانمىلار:"
 
 #. TRANSLATORS: Check button label in "Create Launcher" dialog, make sure to
 #. avoid mnemonic conflicts
-#. *              and sync your translations with the translations in Thunar
-#. and xfce4-panel.
-#: ../exo-desktop-item-edit/exo-die-editor.c:421
+#. *              and sync your translations with the translations in Fmb
+#. and blade-bar.
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:421
 msgid "Use _startup notification"
 msgstr "قوزغىلىش ئۇقتۇرۇشى ئىشلەت(_S)"
 
-#: ../exo-desktop-item-edit/exo-die-editor.c:422
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:422
 msgid ""
 "Select this option to enable startup notification when the command is run "
 "from the file manager or the menu. Not every application supports startup "
@@ -672,408 +672,408 @@ msgstr "بۇ تاللانما تاللانسا، ھۆججەت باشقۇرغۇ �
 
 #. TRANSLATORS: Check button label in "Create Launcher" dialog, make sure to
 #. avoid mnemonic conflicts
-#. *              and sync your translations with the translations in Thunar
-#. and xfce4-panel.
-#: ../exo-desktop-item-edit/exo-die-editor.c:435
+#. *              and sync your translations with the translations in Fmb
+#. and blade-bar.
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:435
 msgid "Run in _terminal"
 msgstr "تېرمىنالدا ئىجرا قىل(_T)"
 
-#: ../exo-desktop-item-edit/exo-die-editor.c:436
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:436
 msgid "Select this option to run the command in a terminal window."
 msgstr "بۇ تاللانما تاللانسا، بۇيرۇق تېرمىنالدا كۆزنىكىدە ئىجرا بولىدۇ."
 
 #. allocate the icon chooser dialog
-#: ../exo-desktop-item-edit/exo-die-editor.c:592
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:592
 msgid "Select an icon"
 msgstr "سىنبەلگىدىن بىرنى تاللا"
 
-#: ../exo-desktop-item-edit/exo-die-editor.c:595
-#: ../exo-desktop-item-edit/exo-die-editor.c:639
-#: ../exo-helper/exo-helper-chooser.c:541
-#: ../exo-helper/exo-helper-launcher-dialog.c:110
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:595
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:639
+#: ../blxo-helper/blxo-helper-chooser.c:541
+#: ../blxo-helper/blxo-helper-launcher-dialog.c:110
 msgid "_OK"
 msgstr ""
 
 #. allocate the file chooser dialog
-#: ../exo-desktop-item-edit/exo-die-editor.c:635
+#: ../blxo-desktop-item-edit/blxo-die-editor.c:635
 msgid "Select a working directory"
 msgstr "خىزمەت مۇندەرىجىسى تاللا"
 
-#: ../exo-desktop-item-edit/exo-die-utils.c:171
+#: ../blxo-desktop-item-edit/blxo-die-utils.c:171
 msgid "File location is not a regular file or directory"
 msgstr "ھۆججەتنىڭ ئورنى ئۆلچەملىك ھۆججەت ياكى مۇندەرىجە ئەمەس"
 
 #. --- constants ---
-#: ../exo-desktop-item-edit/main.c:54
+#: ../blxo-desktop-item-edit/main.c:54
 msgid "Create Launcher"
 msgstr "ئىجراچى قۇر"
 
-#: ../exo-desktop-item-edit/main.c:54
+#: ../blxo-desktop-item-edit/main.c:54
 msgid "Create Link"
 msgstr "ئۇلانما قۇر"
 
-#: ../exo-desktop-item-edit/main.c:54
+#: ../blxo-desktop-item-edit/main.c:54
 msgid "Create Directory"
 msgstr "مۇندەرىجە قۇر"
 
-#: ../exo-desktop-item-edit/main.c:55
+#: ../blxo-desktop-item-edit/main.c:55
 msgid "Edit Launcher"
 msgstr "ئىجراچىنى تەھرىرلە"
 
-#: ../exo-desktop-item-edit/main.c:55
+#: ../blxo-desktop-item-edit/main.c:55
 msgid "Edit Link"
 msgstr "ئۇلانمىنى تەھرىرلە"
 
-#: ../exo-desktop-item-edit/main.c:55
+#: ../blxo-desktop-item-edit/main.c:55
 msgid "Edit Directory"
 msgstr "مۇندەرىجە تەھرىرلە"
 
-#: ../exo-desktop-item-edit/main.c:80
+#: ../blxo-desktop-item-edit/main.c:80
 msgid "Create a new desktop file in the given directory"
 msgstr "كۆرسىتىلگەن مۇندەرىجىگە ئۈستەلئۈستى ھۆججىتى قۇر"
 
-#: ../exo-desktop-item-edit/main.c:81
+#: ../blxo-desktop-item-edit/main.c:81
 msgid "Type of desktop file to create (Application or Link)"
 msgstr "قۇرماقچى بولغان ئۈستەلئۈستى ھۆججىتىنىڭ تىپى(پروگرامما ياكى ئۇلانما)"
 
-#: ../exo-desktop-item-edit/main.c:82
+#: ../blxo-desktop-item-edit/main.c:82
 msgid "Preset name when creating a desktop file"
 msgstr "ئۈستەلئۈستى ھۆججىتى ياسىغاندا ئىشلىتىدىغان Preset ئاتى"
 
-#: ../exo-desktop-item-edit/main.c:83
+#: ../blxo-desktop-item-edit/main.c:83
 msgid "Preset comment when creating a desktop file"
 msgstr "ئۈستەلئۈستى ھۆججىتى ياسىغاندا ئىشلىتىدىغان Preset ئىزاھاتى"
 
-#: ../exo-desktop-item-edit/main.c:84
+#: ../blxo-desktop-item-edit/main.c:84
 msgid "Preset command when creating a launcher"
 msgstr "ئىجراچى ياسىغاندا ئىشلىتىدىغان Preset بۇيرۇقى"
 
-#: ../exo-desktop-item-edit/main.c:85
+#: ../blxo-desktop-item-edit/main.c:85
 msgid "Preset URL when creating a link"
 msgstr "ئۇلانما ياسىغاندا ئىشلىتىدىغان Preset URL"
 
-#: ../exo-desktop-item-edit/main.c:86
+#: ../blxo-desktop-item-edit/main.c:86
 msgid "Preset icon when creating a desktop file"
 msgstr "ئۈستەلئۈستى ھۆججىتى ياسىغاندا ئىشلىتىدىغان Preset سىنبەلگىسى"
 
-#: ../exo-desktop-item-edit/main.c:87 ../exo-helper/main.c:72
+#: ../blxo-desktop-item-edit/main.c:87 ../blxo-helper/main.c:72
 msgid "Print version information and exit"
 msgstr "نەشر ئۇچۇرىنى كۆرسىتىپ ئاخىرلاشتۇرۇش"
 
 #. initialize Gtk+
-#: ../exo-desktop-item-edit/main.c:172
+#: ../blxo-desktop-item-edit/main.c:172
 msgid "[FILE|FOLDER]"
 msgstr "[ھۆججەت|مۇندەرىجە]"
 
 #. no error message, the GUI initialization failed
-#: ../exo-desktop-item-edit/main.c:184
+#: ../blxo-desktop-item-edit/main.c:184
 msgid "Failed to open display"
 msgstr "ئېكراننى ئېچىش مەغلۇپ بولدى"
 
-#: ../exo-desktop-item-edit/main.c:211
+#: ../blxo-desktop-item-edit/main.c:211
 msgid "No file/folder specified"
 msgstr "ھۆججەت/مۇندەرىجە بېكىتىلمىگەن"
 
-#: ../exo-desktop-item-edit/main.c:276
+#: ../blxo-desktop-item-edit/main.c:276
 #, c-format
 msgid "Failed to load contents from \"%s\": %s"
 msgstr "«%s» نىڭدىن مەزمۇنلارنى ئوقۇش مەغلۇپ بولدى: %s"
 
-#: ../exo-desktop-item-edit/main.c:281
+#: ../blxo-desktop-item-edit/main.c:281
 #, c-format
 msgid "The file \"%s\" contains no data"
 msgstr "ھۆججەت «%s» دا سانلىق-مەلۇمات يوق ئىكەن"
 
 #. failed to parse the file
-#: ../exo-desktop-item-edit/main.c:294
+#: ../blxo-desktop-item-edit/main.c:294
 #, c-format
 msgid "Failed to parse contents of \"%s\": %s"
 msgstr "«%s» نىڭ مەزمۇنىنى پارچىلاش مەغلۇپ بولدى:%s"
 
 #. we cannot continue without a type
-#: ../exo-desktop-item-edit/main.c:306
+#: ../blxo-desktop-item-edit/main.c:306
 #, c-format
 msgid "File \"%s\" has no type key"
 msgstr "ھۆججەت «%s» نىڭ تىپ ئاچقۇچى يوق"
 
 #. tell the user that we don't support the type
-#: ../exo-desktop-item-edit/main.c:316
+#: ../blxo-desktop-item-edit/main.c:316
 #, c-format
 msgid "Unsupported desktop file type \"%s\""
 msgstr "«%s» ئىشلەتكىلى بولمايدىغان ئۈستەلئۈستى ھۆججەت تىپى"
 
 #. add the "Help" button
-#: ../exo-desktop-item-edit/main.c:331
-#: ../exo-helper/exo-helper-chooser-dialog.c:106
+#: ../blxo-desktop-item-edit/main.c:331
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:106
 msgid "_Help"
 msgstr "ياردەم(_H)"
 
 #. add the "Create"/"Save" button (as default)
-#: ../exo-desktop-item-edit/main.c:338
+#: ../blxo-desktop-item-edit/main.c:338
 msgid "C_reate"
 msgstr "قۇر(_R)"
 
-#: ../exo-desktop-item-edit/main.c:338 ../exo-desktop-item-edit/main.c:518
+#: ../blxo-desktop-item-edit/main.c:338 ../blxo-desktop-item-edit/main.c:518
 msgid "_Save"
 msgstr ""
 
 #. create failed, ask the user to specify a file name
-#: ../exo-desktop-item-edit/main.c:514
+#: ../blxo-desktop-item-edit/main.c:514
 msgid "Choose filename"
 msgstr "ھۆججەت نامىنى تاللاڭ"
 
-#: ../exo-desktop-item-edit/main.c:621
+#: ../blxo-desktop-item-edit/main.c:621
 #, c-format
 msgid "Failed to create \"%s\"."
 msgstr "«%s» قۇرۇش مەغلۇپ بولدى."
 
-#: ../exo-desktop-item-edit/main.c:621
+#: ../blxo-desktop-item-edit/main.c:621
 #, c-format
 msgid "Failed to save \"%s\"."
 msgstr "«%s» نى ساقلاش مەغلۇپ بولدى."
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:99
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:99
 msgid "_Close"
 msgstr "تاقا(_C)"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:101
-#: ../exo-helper/exo-preferred-applications.desktop.in.h:1
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:101
+#: ../blxo-helper/blxo-preferred-applications.desktop.in.h:1
 msgid "Preferred Applications"
 msgstr "ئامراق پروگراممىلار"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:103
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:103
 msgid "Select default applications for various services"
 msgstr "ھەر خىل مۇلازىمەتلەر ئۈچۈن كۆڭۈلدىكى پروگراممىلارنى تاللاش"
 
 #. Internet
-#: ../exo-helper/exo-helper-chooser-dialog.c:127
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:127
 msgid "_Internet"
 msgstr "ئىنتېرنېت(_I)"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:140
-#: ../exo-open/exo-web-browser.desktop.in.h:1
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:140
+#: ../blxo-open/blxo-web-browser.desktop.in.h:1
 msgid "Web Browser"
 msgstr "توركۆرگۈ"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:148
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:148
 msgid ""
 "The preferred Web Browser will be used to open hyperlinks and display help "
 "contents."
 msgstr ""
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:171
-#: ../exo-open/exo-mail-reader.desktop.in.h:1
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:171
+#: ../blxo-open/blxo-mail-reader.desktop.in.h:1
 msgid "Mail Reader"
 msgstr "ئېلخەت ئوقۇغۇ"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:179
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:179
 msgid ""
 "The preferred Mail Reader will be used to compose emails when you click on "
 "email addresses."
 msgstr ""
 
 #. Utilities
-#: ../exo-helper/exo-helper-chooser-dialog.c:198
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:198
 msgid "_Utilities"
 msgstr "قوراللار(_I)"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:211
-#: ../exo-open/exo-file-manager.desktop.in.h:1
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:211
+#: ../blxo-open/blxo-file-manager.desktop.in.h:1
 msgid "File Manager"
 msgstr "ھۆججەت باشقۇرغۇ"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:219
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:219
 msgid ""
 "The preferred File Manager will be used to browse the contents of folders."
 msgstr ""
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:242
-#: ../exo-open/exo-terminal-emulator.desktop.in.h:1
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:242
+#: ../blxo-open/blxo-terminal-emulator.desktop.in.h:1
 msgid "Terminal Emulator"
 msgstr "تېرمىنال Emulator"
 
-#: ../exo-helper/exo-helper-chooser-dialog.c:250
+#: ../blxo-helper/blxo-helper-chooser-dialog.c:250
 msgid ""
 "The preferred Terminal Emulator will be used to run commands that require a "
 "CLI environment."
 msgstr ""
 
-#: ../exo-helper/exo-helper-chooser.c:145
-#: ../exo-helper/exo-helper-chooser.c:152
+#: ../blxo-helper/blxo-helper-chooser.c:145
+#: ../blxo-helper/blxo-helper-chooser.c:152
 msgid "Press left mouse button to change the selected application."
 msgstr "تاللانغان پروگراممىنى ئۆزگەرتىش ئۈچۈن چاشقىنەكنىڭ سول توپچىسىنى بېسىڭ."
 
-#: ../exo-helper/exo-helper-chooser.c:151
+#: ../blxo-helper/blxo-helper-chooser.c:151
 msgid "Application Chooser Button"
 msgstr "پروگرامما تاللىغۇ توپچىسى"
 
-#: ../exo-helper/exo-helper-chooser.c:303
+#: ../blxo-helper/blxo-helper-chooser.c:303
 msgid "No application selected"
 msgstr "پروگرامما تاللانمىدى"
 
-#: ../exo-helper/exo-helper-chooser.c:319
+#: ../blxo-helper/blxo-helper-chooser.c:319
 msgid "Failed to set default Web Browser"
 msgstr "كۆڭۈلدىكى توركۆرگۈنى بېكىتىش مەغلۇپ بولدى"
 
-#: ../exo-helper/exo-helper-chooser.c:320
+#: ../blxo-helper/blxo-helper-chooser.c:320
 msgid "Failed to set default Mail Reader"
 msgstr "كۆڭۈلدىكى خەت ئوقۇغۇنى بېكىتىش مەغلۇپ بولدى"
 
-#: ../exo-helper/exo-helper-chooser.c:321
+#: ../blxo-helper/blxo-helper-chooser.c:321
 msgid "Failed to set default File Manager"
 msgstr "كۆڭۈلدىكى ھۆججەت باشقۇرغۇنى بېكىتىش مەغلۇپ بولدى"
 
-#: ../exo-helper/exo-helper-chooser.c:322
+#: ../blxo-helper/blxo-helper-chooser.c:322
 msgid "Failed to set default Terminal Emulator"
 msgstr "كۆڭۈلدىكى تېرمىنال تەقلىدلىگۈ نى بېكىتىش مەغلۇپ بولدى"
 
 #. allocate the chooser
-#: ../exo-helper/exo-helper-chooser.c:392
+#: ../blxo-helper/blxo-helper-chooser.c:392
 msgid "Select application"
 msgstr "پروگرامما تاللا"
 
-#: ../exo-helper/exo-helper-chooser.c:505
+#: ../blxo-helper/blxo-helper-chooser.c:505
 msgid "Choose a custom Web Browser"
 msgstr "توركۆرگۈ تاللا"
 
-#: ../exo-helper/exo-helper-chooser.c:506
+#: ../blxo-helper/blxo-helper-chooser.c:506
 msgid "Choose a custom Mail Reader"
 msgstr "خەت ئوقۇغۇ تاللا"
 
-#: ../exo-helper/exo-helper-chooser.c:507
+#: ../blxo-helper/blxo-helper-chooser.c:507
 msgid "Choose a custom File Manager"
 msgstr "ھۆججەت باشقۇرغۇ تاللا"
 
-#: ../exo-helper/exo-helper-chooser.c:508
+#: ../blxo-helper/blxo-helper-chooser.c:508
 msgid "Choose a custom Terminal Emulator"
 msgstr "تېرمىنال تەقلىدلىگۈ تاللا"
 
-#: ../exo-helper/exo-helper-chooser.c:513
+#: ../blxo-helper/blxo-helper-chooser.c:513
 msgid ""
 "Specify the application you want to use\n"
 "as default Web Browser for Xfce:"
 msgstr "Xfce دىكى كۆڭۈلدىكى توركۆرگۈنى بېكىتىڭ:"
 
-#: ../exo-helper/exo-helper-chooser.c:514
+#: ../blxo-helper/blxo-helper-chooser.c:514
 msgid ""
 "Specify the application you want to use\n"
 "as default Mail Reader for Xfce:"
 msgstr "Xfce دىكى كۆڭۈلدىكى خەت ئوقۇغۇنى بېكىتىڭ:"
 
-#: ../exo-helper/exo-helper-chooser.c:515
+#: ../blxo-helper/blxo-helper-chooser.c:515
 msgid ""
 "Specify the application you want to use\n"
 "as default File Manager for Xfce:"
 msgstr "Xfce دىكى كۆڭۈلدىكى ھۆججەت باشقۇرغۇنى بېكىتىڭ:"
 
-#: ../exo-helper/exo-helper-chooser.c:516
+#: ../blxo-helper/blxo-helper-chooser.c:516
 msgid ""
 "Specify the application you want to use\n"
 "as default Terminal Emulator for Xfce:"
 msgstr "Xfce دىكى كۆڭۈلدىكى تېرمىنال تەقلىدلىگۈنى بېكىتىڭ:"
 
-#: ../exo-helper/exo-helper-chooser.c:580
+#: ../blxo-helper/blxo-helper-chooser.c:580
 msgid "Browse the file system to choose a custom command."
 msgstr "بۇيرۇق تاللاش ئۈچۈن ھۆججەت سىستېمىنى كۆرىدۇ."
 
-#: ../exo-helper/exo-helper-chooser.c:789
+#: ../blxo-helper/blxo-helper-chooser.c:789
 msgid "_Other..."
 msgstr "باشقا(_O)..."
 
-#: ../exo-helper/exo-helper-chooser.c:790
+#: ../blxo-helper/blxo-helper-chooser.c:790
 msgid "Use a custom application which is not included in the above list."
 msgstr "تىزىملىكتە يوق پروگراممىنى ئىشلىتىدۇ."
 
-#: ../exo-helper/exo-helper-launcher-dialog.c:113
+#: ../blxo-helper/blxo-helper-launcher-dialog.c:113
 msgid "Choose Preferred Application"
 msgstr "ئامراق پروگراممىنى تاللاش"
 
-#: ../exo-helper/exo-helper-launcher-dialog.c:256
+#: ../blxo-helper/blxo-helper-launcher-dialog.c:256
 msgid ""
 "Please choose your preferred Web\n"
 "Browser now and click OK to proceed."
 msgstr "ئۆزىڭىز ئامراق تور كۆرگۈنى تاللاپ OK نى چېكىڭ."
 
-#: ../exo-helper/exo-helper-launcher-dialog.c:258
+#: ../blxo-helper/blxo-helper-launcher-dialog.c:258
 msgid ""
 "Please choose your preferred Mail Reader\n"
 "now and click OK to proceed."
 msgstr "ئۆزىڭىز ئامراق خەت ئوقۇغۇنى تاللاپ OK نى چېكىڭ."
 
-#: ../exo-helper/exo-helper-launcher-dialog.c:260
+#: ../blxo-helper/blxo-helper-launcher-dialog.c:260
 msgid ""
 "Please choose your preferred File Manager\n"
 "now and click OK to proceed."
 msgstr "ئۆزىڭىز ئامراق ھۆججەت باشقۇرغۇنى تاللاپ OK نى چېكىڭ."
 
-#: ../exo-helper/exo-helper-launcher-dialog.c:262
+#: ../blxo-helper/blxo-helper-launcher-dialog.c:262
 msgid ""
 "Please choose your preferred Terminal\n"
 "Emulator now and click OK to proceed."
 msgstr "ئۆزىڭىز ئامراق تېرمىنال تەقلىدلىگۈنى تاللاپ OK نى چېكىڭ."
 
-#: ../exo-helper/exo-helper.c:401
+#: ../blxo-helper/blxo-helper.c:401
 #, c-format
 msgid "No command specified"
 msgstr "بۇيرۇق بېكىتىلمىگەن"
 
-#: ../exo-helper/exo-helper.c:719 ../exo-helper/exo-helper.c:757
-#: ../exo-helper/exo-helper.c:824 ../exo-helper/exo-helper.c:862
+#: ../blxo-helper/blxo-helper.c:719 ../blxo-helper/blxo-helper.c:757
+#: ../blxo-helper/blxo-helper.c:824 ../blxo-helper/blxo-helper.c:862
 #, c-format
 msgid "Failed to open %s for writing"
 msgstr "يېزىش مەقسىتىدە %s نى ئېچىش مەغلۇپ بولدى"
 
-#: ../exo-helper/exo-preferred-applications.desktop.in.h:2
+#: ../blxo-helper/blxo-preferred-applications.desktop.in.h:2
 msgid ""
 "Preferred Applications (Web Browser, Mail Reader and Terminal Emulator)"
 msgstr "ئامراق پروگراممىلار (توركۆرگۈ، خەت ئوقۇغۇ، تېرمىنال تەقلىدلىگۈ)"
 
-#: ../exo-helper/main.c:42
+#: ../blxo-helper/main.c:42
 msgid "Failed to execute default Web Browser"
 msgstr "كۆڭۈلدىكى تور كۆرگۈنى ئىجرا قىلىش مەغلۇپ بولدى"
 
-#: ../exo-helper/main.c:43
+#: ../blxo-helper/main.c:43
 msgid "Failed to execute default Mail Reader"
 msgstr "كۆڭۈلدىكى خەت ئوقۇغۇنى ئىجرا قىلىش مەغلۇپ بولدى"
 
-#: ../exo-helper/main.c:44
+#: ../blxo-helper/main.c:44
 msgid "Failed to execute default File Manager"
 msgstr "كۆڭۈلدىكى ھۆججەت باشقۇرغۇنى ئىجرا قىلىش مەغلۇپ بولدى"
 
-#: ../exo-helper/main.c:45
+#: ../blxo-helper/main.c:45
 msgid "Failed to execute default Terminal Emulator"
 msgstr "كۆڭۈلدىكى تېرمىنال تەقلىدلىگۈنى ئىجرا قىلىش مەغلۇپ بولدى"
 
-#: ../exo-helper/main.c:73
+#: ../blxo-helper/main.c:73
 msgid ""
 "Open the Preferred Applications\n"
 "configuration dialog"
 msgstr "ئامراق پروگراممىلارنى بېكىتىش كۆزنىكىنى ئاچ"
 
-#: ../exo-helper/main.c:74
+#: ../blxo-helper/main.c:74
 msgid "Settings manager socket"
 msgstr "باشقۇرغۇچى سوكېتنىڭ تەڭشەكلىرى"
 
-#: ../exo-helper/main.c:74
+#: ../blxo-helper/main.c:74
 msgid "SOCKET ID"
 msgstr "SOCKET ID"
 
-#: ../exo-helper/main.c:75
+#: ../blxo-helper/main.c:75
 msgid ""
 "Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
 " one of the following values."
 msgstr "TYPE نىڭ كۆڭۈلدىكى helper نى  PARAMETER تاللانمىسىنى قوشۇپ ئىجرا قىل. TYPE تۆۋەندىكىلەرنىڭ بىرى."
 
-#: ../exo-helper/main.c:75 ../exo-helper/main.c:76
+#: ../blxo-helper/main.c:75 ../blxo-helper/main.c:76
 msgid "TYPE [PARAMETER]"
 msgstr "TYPE [PARAMETER]"
 
-#: ../exo-helper/main.c:76
+#: ../blxo-helper/main.c:76
 msgid ""
 "Query the default helper of TYPE, where TYPE is one of the following values."
 msgstr ""
 
-#: ../exo-helper/main.c:106
+#: ../blxo-helper/main.c:106
 msgid ""
 "The following TYPEs are supported for the --launch and --query commands:\n"
 "\n"
@@ -1083,17 +1083,17 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr ""
 
-#: ../exo-helper/main.c:116
+#: ../blxo-helper/main.c:116
 #, c-format
 msgid "Type '%s --help' for usage."
 msgstr "'%s --help' كىرگۈزسە ئىشلىتىش ئۇسۇلىنى كۆرگىلى بولىدۇ"
 
-#: ../exo-helper/main.c:175 ../exo-helper/main.c:241
+#: ../blxo-helper/main.c:175 ../blxo-helper/main.c:241
 #, c-format
 msgid "Invalid helper type \"%s\""
 msgstr "ياردەمچى تىپى «%s» ئىناۋەتسىز."
 
-#: ../exo-helper/main.c:225
+#: ../blxo-helper/main.c:225
 #, c-format
 msgid ""
 "%s (Xfce %s)\n"
@@ -1108,261 +1108,261 @@ msgid ""
 "Please report bugs to <%s>.\n"
 msgstr "%s (Xfce %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. All rights reserved.\n\n ئاپتور Benedikt Meurer <benny@xfce.org>.\n\nGtk+-%d.%d.%d دا ياسالغان, Gtk+-%d.%d.%d. دا ئىجرا بولۇۋاتىدۇ\n\nكەمتۈكىنى <%s> غا مەلۇم قىلىڭ.\n"
 
-#: ../exo-helper/main.c:251
+#: ../blxo-helper/main.c:251
 #, c-format
 msgid "No helper defined for \"%s\"."
 msgstr ""
 
-#: ../exo-helper/helpers/aterm.desktop.in.in.h:1
+#: ../blxo-helper/helpers/aterm.desktop.in.in.h:1
 msgid "aterm"
 msgstr "aterm"
 
-#: ../exo-helper/helpers/balsa.desktop.in.in.h:1
+#: ../blxo-helper/helpers/balsa.desktop.in.in.h:1
 msgid "Balsa"
 msgstr "Balsa"
 
-#: ../exo-helper/helpers/brave.desktop.in.in.h:1
+#: ../blxo-helper/helpers/brave.desktop.in.in.h:1
 msgid "Brave"
 msgstr ""
 
-#: ../exo-helper/helpers/caja.desktop.in.in.h:1
+#: ../blxo-helper/helpers/caja.desktop.in.in.h:1
 msgid "Caja File Manager"
 msgstr "Caja ھۆججەت باشقۇرغۇ"
 
-#: ../exo-helper/helpers/chromium.desktop.in.in.h:1
+#: ../blxo-helper/helpers/chromium.desktop.in.in.h:1
 msgid "Chromium"
 msgstr "خىروم"
 
-#: ../exo-helper/helpers/debian-sensible-browser.desktop.in.in.h:1
+#: ../blxo-helper/helpers/debian-sensible-browser.desktop.in.in.h:1
 msgid "Debian Sensible Browser"
 msgstr "Debian Sensible كۆرگۈ"
 
-#: ../exo-helper/helpers/debian-x-terminal-emulator.desktop.in.in.h:1
+#: ../blxo-helper/helpers/debian-x-terminal-emulator.desktop.in.in.h:1
 msgid "Debian X Terminal Emulator"
 msgstr "Debian X تېرمىنال تەقلىدلىگۈ"
 
-#: ../exo-helper/helpers/dillo.desktop.in.in.h:1
+#: ../blxo-helper/helpers/dillo.desktop.in.in.h:1
 msgid "Dillo"
 msgstr "Dillo"
 
-#: ../exo-helper/helpers/encompass.desktop.in.in.h:1
+#: ../blxo-helper/helpers/encompass.desktop.in.in.h:1
 msgid "Encompass"
 msgstr "Encompass"
 
-#: ../exo-helper/helpers/epiphany.desktop.in.in.h:1
+#: ../blxo-helper/helpers/epiphany.desktop.in.in.h:1
 msgid "Epiphany Web Browser"
 msgstr "Epiphany توركۆرگۈ"
 
-#: ../exo-helper/helpers/eterm.desktop.in.in.h:1
+#: ../blxo-helper/helpers/eterm.desktop.in.in.h:1
 msgid "Enlightened Terminal Emulator"
 msgstr "Enlightened تېرمىنال تەقلىدلىگۈ"
 
-#: ../exo-helper/helpers/evolution.desktop.in.in.h:1
+#: ../blxo-helper/helpers/evolution.desktop.in.in.h:1
 msgid "Evolution"
 msgstr "Evolution"
 
-#: ../exo-helper/helpers/firefox.desktop.in.in.h:1
+#: ../blxo-helper/helpers/firefox.desktop.in.in.h:1
 msgid "Mozilla Firefox"
 msgstr "Mozilla Firefox"
 
-#: ../exo-helper/helpers/galeon.desktop.in.in.h:1
+#: ../blxo-helper/helpers/galeon.desktop.in.in.h:1
 msgid "Galeon Web Browser"
 msgstr "Galeon توركۆرگۈ"
 
-#: ../exo-helper/helpers/geary.desktop.in.in.h:1
+#: ../blxo-helper/helpers/geary.desktop.in.in.h:1
 msgid "Geary"
 msgstr ""
 
-#: ../exo-helper/helpers/google-chrome.desktop.in.in.h:1
+#: ../blxo-helper/helpers/google-chrome.desktop.in.in.h:1
 msgid "Google Chrome"
 msgstr ""
 
-#: ../exo-helper/helpers/gnome-terminal.desktop.in.in.h:1
+#: ../blxo-helper/helpers/gnome-terminal.desktop.in.in.h:1
 msgid "GNOME Terminal"
 msgstr "GNOME تېرمىنالى"
 
-#: ../exo-helper/helpers/icecat.desktop.in.in.h:1
+#: ../blxo-helper/helpers/icecat.desktop.in.in.h:1
 msgid "Icecat"
 msgstr "Icecat"
 
-#: ../exo-helper/helpers/icedove.desktop.in.in.h:1
+#: ../blxo-helper/helpers/icedove.desktop.in.in.h:1
 msgid "Icedove"
 msgstr "Icedove"
 
-#: ../exo-helper/helpers/iceweasel.desktop.in.in.h:1
+#: ../blxo-helper/helpers/iceweasel.desktop.in.in.h:1
 msgid "Iceweasel"
 msgstr "Iceweasel"
 
-#: ../exo-helper/helpers/jumanji.desktop.in.in.h:1
+#: ../blxo-helper/helpers/jumanji.desktop.in.in.h:1
 msgid "Jumanji"
 msgstr "Jumanji"
 
-#: ../exo-helper/helpers/kmail.desktop.in.in.h:1
+#: ../blxo-helper/helpers/kmail.desktop.in.in.h:1
 msgid "KMail"
 msgstr "KMail"
 
-#: ../exo-helper/helpers/konqueror.desktop.in.in.h:1
+#: ../blxo-helper/helpers/konqueror.desktop.in.in.h:1
 msgid "Konqueror Web Browser"
 msgstr "Konqueror  توركۆرگۈ"
 
-#: ../exo-helper/helpers/links.desktop.in.in.h:1
+#: ../blxo-helper/helpers/links.desktop.in.in.h:1
 msgid "Links Text Browser"
 msgstr "ئۇلانما  تېكىست كۆرگۈ"
 
-#: ../exo-helper/helpers/lynx.desktop.in.in.h:1
+#: ../blxo-helper/helpers/lynx.desktop.in.in.h:1
 msgid "Lynx Text Browser"
 msgstr "Lynx تېكىست كۆرگۈ"
 
-#: ../exo-helper/helpers/midori.desktop.in.in.h:1
+#: ../blxo-helper/helpers/midori.desktop.in.in.h:1
 msgid "Midori"
 msgstr "مىدورى(Midori)"
 
-#: ../exo-helper/helpers/mozilla-browser.desktop.in.in.h:1
+#: ../blxo-helper/helpers/mozilla-browser.desktop.in.in.h:1
 msgid "Mozilla Browser"
 msgstr "Mozilla توركۆرگۈ"
 
-#: ../exo-helper/helpers/mozilla-mailer.desktop.in.in.h:1
+#: ../blxo-helper/helpers/mozilla-mailer.desktop.in.in.h:1
 msgid "Mozilla Mail"
 msgstr "Mozilla ئېلخەت"
 
-#: ../exo-helper/helpers/mutt.desktop.in.in.h:1
+#: ../blxo-helper/helpers/mutt.desktop.in.in.h:1
 msgid "Mutt"
 msgstr "Mutt"
 
-#: ../exo-helper/helpers/nautilus.desktop.in.in.h:1
+#: ../blxo-helper/helpers/nautilus.desktop.in.in.h:1
 msgid "Nautilus"
 msgstr "Nautilus"
 
-#: ../exo-helper/helpers/netscape-navigator.desktop.in.in.h:1
+#: ../blxo-helper/helpers/netscape-navigator.desktop.in.in.h:1
 msgid "Netscape Navigator"
 msgstr "Netscape Navigator"
 
-#: ../exo-helper/helpers/nxterm.desktop.in.in.h:1
+#: ../blxo-helper/helpers/nxterm.desktop.in.in.h:1
 msgid "NXterm"
 msgstr "NXterm"
 
-#: ../exo-helper/helpers/opera-browser.desktop.in.in.h:1
+#: ../blxo-helper/helpers/opera-browser.desktop.in.in.h:1
 msgid "Opera Browser"
 msgstr "Opera توركۆرگۈ"
 
-#: ../exo-helper/helpers/pcmanfm.desktop.in.in.h:1
+#: ../blxo-helper/helpers/pcmanfm.desktop.in.in.h:1
 msgid "PCMan File Manager"
 msgstr "PCMan ھۆججەت باشقۇرغۇ"
 
-#: ../exo-helper/helpers/pcmanfm-qt.desktop.in.in.h:1
+#: ../blxo-helper/helpers/pcmanfm-qt.desktop.in.in.h:1
 msgid "PCManFM-Qt File Manager"
 msgstr ""
 
-#: ../exo-helper/helpers/qterminal.desktop.in.in.h:1
+#: ../blxo-helper/helpers/qterminal.desktop.in.in.h:1
 msgid "QTerminal"
 msgstr ""
 
-#: ../exo-helper/helpers/qtfm.desktop.in.in.h:1
+#: ../blxo-helper/helpers/qtfm.desktop.in.in.h:1
 msgid "qtFM"
 msgstr ""
 
-#: ../exo-helper/helpers/qupzilla.desktop.in.in.h:1
+#: ../blxo-helper/helpers/qupzilla.desktop.in.in.h:1
 msgid "QupZilla"
 msgstr ""
 
-#: ../exo-helper/helpers/rodent.desktop.in.in.h:1
+#: ../blxo-helper/helpers/rodent.desktop.in.in.h:1
 msgid "Rodent File Manager"
 msgstr "Rodent  ھۆججەت باشقۇرغۇ"
 
-#: ../exo-helper/helpers/rox-filer.desktop.in.in.h:1
+#: ../blxo-helper/helpers/rox-filer.desktop.in.in.h:1
 msgid "ROX-Filer"
 msgstr "ROX-Filer"
 
-#: ../exo-helper/helpers/sakura.desktop.in.in.h:1
+#: ../blxo-helper/helpers/sakura.desktop.in.in.h:1
 msgid "Sakura"
 msgstr "Sakura"
 
-#: ../exo-helper/helpers/surf.desktop.in.in.h:1
+#: ../blxo-helper/helpers/surf.desktop.in.in.h:1
 msgid "Surf"
 msgstr ""
 
-#: ../exo-helper/helpers/sylpheed.desktop.in.in.h:1
+#: ../blxo-helper/helpers/sylpheed.desktop.in.in.h:1
 msgid "Sylpheed"
 msgstr "Sylpheed"
 
-#: ../exo-helper/helpers/sylpheed-claws.desktop.in.in.h:1
+#: ../blxo-helper/helpers/sylpheed-claws.desktop.in.in.h:1
 msgid "Claws Mail"
 msgstr "Claws ئېلخەت"
 
-#: ../exo-helper/helpers/terminator.desktop.in.in.h:1
+#: ../blxo-helper/helpers/terminator.desktop.in.in.h:1
 msgid "Terminator"
 msgstr ""
 
-#: ../exo-helper/helpers/Thunar.desktop.in.in.h:1
-msgid "Thunar"
-msgstr "سۇنار(Thunar)"
+#: ../blxo-helper/helpers/Fmb.desktop.in.in.h:1
+msgid "Fmb"
+msgstr "سۇنار(Fmb)"
 
-#: ../exo-helper/helpers/thunderbird.desktop.in.in.h:1
+#: ../blxo-helper/helpers/thunderbird.desktop.in.in.h:1
 msgid "Mozilla Thunderbird"
 msgstr "Mozilla Thunderbird"
 
-#: ../exo-helper/helpers/urxvt.desktop.in.in.h:1
+#: ../blxo-helper/helpers/urxvt.desktop.in.in.h:1
 msgid "RXVT Unicode"
 msgstr "RXVT Unicode"
 
-#: ../exo-helper/helpers/vimprobable2.desktop.in.in.h:1
+#: ../blxo-helper/helpers/vimprobable2.desktop.in.in.h:1
 msgid "Vimprobable2"
 msgstr ""
 
-#: ../exo-helper/helpers/w3m.desktop.in.in.h:1
+#: ../blxo-helper/helpers/w3m.desktop.in.in.h:1
 msgid "W3M Text Browser"
 msgstr "W3M  تېكىست كۆرگۈسى"
 
-#: ../exo-helper/helpers/xfce4-terminal.desktop.in.in.h:1
+#: ../blxo-helper/helpers/xfce4-terminal.desktop.in.in.h:1
 msgid "Xfce Terminal"
 msgstr "Xfce تېرمىنالى"
 
-#: ../exo-helper/helpers/xfe.desktop.in.in.h:1
+#: ../blxo-helper/helpers/xfe.desktop.in.in.h:1
 msgid "Xfe File Manager"
 msgstr "Xfe  ھۆججەت باشقۇرغۇ"
 
-#: ../exo-helper/helpers/xterm.desktop.in.in.h:1
+#: ../blxo-helper/helpers/xterm.desktop.in.in.h:1
 msgid "X Terminal"
 msgstr "X تېرمىنالى"
 
-#: ../exo-open/main.c:109
-msgid "Usage: exo-open [URLs...]"
-msgstr "ئىشلىتىش ئۇسۇلى: exo-open [URL...]"
+#: ../blxo-open/main.c:109
+msgid "Usage: blxo-open [URLs...]"
+msgstr "ئىشلىتىش ئۇسۇلى: blxo-open [URL...]"
 
-#: ../exo-open/main.c:110
-msgid "       exo-open --launch TYPE [PARAMETERs...]"
-msgstr "       ياكى: exo-open --launch TYPE [PARAMETERs...]"
+#: ../blxo-open/main.c:110
+msgid "       blxo-open --launch TYPE [PARAMETERs...]"
+msgstr "       ياكى: blxo-open --launch TYPE [PARAMETERs...]"
 
-#: ../exo-open/main.c:112
+#: ../blxo-open/main.c:112
 msgid "  -?, --help                          Print this help message and exit"
 msgstr "  -?, --help                          ياردەم ئۇچۇرىنى چىقىرىپ ئاخىرلىشىدۇ"
 
-#: ../exo-open/main.c:113
+#: ../blxo-open/main.c:113
 msgid ""
 "  -V, --version                       Print version information and exit"
 msgstr "  -v, --version                       نەشر ئۇچۇرىنى چىقىرىپ ئاخىرلىشىدۇ"
 
-#: ../exo-open/main.c:115
+#: ../blxo-open/main.c:115
 msgid ""
 "  --launch TYPE [PARAMETERs...]       Launch the preferred application of\n"
 "                                      TYPE with the optional PARAMETERs, where\n"
 "                                      TYPE is one of the following values."
 msgstr "  --launch TYPE [PARAMETERs...]       TYPE دېگەن پروگراممىنى PARAMETER \n                                      تاللانمىسى قوشۇپ ئىجرا قىلىدۇ.\n                                      TYPE نىڭ قىممىتىنى تۆۋەندىكىلەردىن كۆرۈڭ."
 
-#: ../exo-open/main.c:119
+#: ../blxo-open/main.c:119
 msgid ""
 "  --working-directory DIRECTORY       Default working directory for applications\n"
 "                                      when using the --launch option."
 msgstr "  --working-directory DIRECTORY      --launch ئىشلىتىلگەن چاغدىكى پروگراممىنىڭ كۆڭۈلدىكى \n                                     خىزمەت مۇندەرىجىسى"
 
-#: ../exo-open/main.c:122
+#: ../blxo-open/main.c:122
 msgid "The following TYPEs are supported for the --launch command:"
 msgstr "تۆۋەندىكى TYPE لارنى --launch بۇيرۇقىدا ئىشلەتكىلى بولىدۇ:"
 
 #. Note to Translators: Do not translate the TYPEs (WebBrowser, MailReader,
 #. TerminalEmulator),
-#. * since the exo-helper utility will not accept localized TYPEs.
-#: ../exo-open/main.c:128
+#. * since the blxo-helper utility will not accept localized TYPEs.
+#: ../blxo-open/main.c:128
 msgid ""
 "  WebBrowser       - The preferred Web Browser.\n"
 "  MailReader       - The preferred Mail Reader.\n"
@@ -1370,49 +1370,49 @@ msgid ""
 "  TerminalEmulator - The preferred Terminal Emulator."
 msgstr "  WebBrowser       - ئامراق توركۆرگۈ.\n  MailReader       - ئامراق ئېلخەت ئوقۇغۇ.\n  FileManager      - ئامراق ھۆججەت باشقۇرغۇ.\n  TerminalEmulator - ئامراق تېرمىنال تەقلىدلىگۈ."
 
-#: ../exo-open/main.c:133
+#: ../blxo-open/main.c:133
 msgid ""
-"If you don't specify the --launch option, exo-open will open all specified\n"
+"If you don't specify the --launch option, blxo-open will open all specified\n"
 "URLs with their preferred URL handlers. Else, if you specify the --launch\n"
 "option, you can select which preferred application you want to run, and\n"
 "pass additional parameters to the application (i.e. for TerminalEmulator\n"
 "you can pass the command line that should be run in the terminal)."
-msgstr "تاللانما --launch يېزىلمىسا، exo-open يېزىلغان بارلىق URL نى\nئالدىن بەلگىلەن ئۇسۇل بويىچە ئاچىدۇ. ئەگەر تاللانما --launch يېزىلسا ئامراق پروگرامما تاللىنىپ، شۇ پروگراممىغا باشقا پارامېتىرلار يەتكۈزۈلۈپ \nئىجرا قىلىنىدۇ. (TerminalEmulator غا چوقۇم بۇيرۇق قۇرىدا ئىجرا قىلغىلى بولىدىغان پارامېتىرلارنى يېزىش كېرەك.)。"
+msgstr "تاللانما --launch يېزىلمىسا، blxo-open يېزىلغان بارلىق URL نى\nئالدىن بەلگىلەن ئۇسۇل بويىچە ئاچىدۇ. ئەگەر تاللانما --launch يېزىلسا ئامراق پروگرامما تاللىنىپ، شۇ پروگراممىغا باشقا پارامېتىرلار يەتكۈزۈلۈپ \nئىجرا قىلىنىدۇ. (TerminalEmulator غا چوقۇم بۇيرۇق قۇرىدا ئىجرا قىلغىلى بولىدىغان پارامېتىرلارنى يېزىش كېرەك.)。"
 
-#: ../exo-open/main.c:195
+#: ../blxo-open/main.c:195
 #, c-format
 msgid ""
 "Launching desktop files is not supported when %s is compiled without GIO-"
 "Unix features."
 msgstr "%s GIO-Unix ئالاھىدىلىكىنى ئىشلىتىپ يۇغۇرۇلمىغان بولسا ئۈستەلئۈستى ھۆججىتىنى ئىجرا قىلغىلى بولمايدۇ."
 
-#: ../exo-open/main.c:269
+#: ../blxo-open/main.c:269
 #, c-format
 msgid "Failed to launch preferred application for category \"%s\"."
 msgstr "كاتېگورىيە «%s» غا تەۋە ھۆججەتنى ئىجرا قىلىدىغان پروگرامما مەغلۇپ بولدى."
 
-#: ../exo-open/main.c:590
+#: ../blxo-open/main.c:590
 #, c-format
 msgid "Unable to detect the URI-scheme of \"%s\"."
 msgstr "«%s» نىڭ URI-scheme نى بىلگىلى بولمىدى."
 
-#: ../exo-open/main.c:604
+#: ../blxo-open/main.c:604
 #, c-format
 msgid "Failed to open URI \"%s\"."
 msgstr "URI «%s» نى ئېچىش مەغلۇپ بولدى."
 
-#: ../exo-open/exo-file-manager.desktop.in.h:2
+#: ../blxo-open/blxo-file-manager.desktop.in.h:2
 msgid "Browse the file system"
 msgstr "ھۆججەت سىستېمىسىنى كۆرىدۇ"
 
-#: ../exo-open/exo-mail-reader.desktop.in.h:2
+#: ../blxo-open/blxo-mail-reader.desktop.in.h:2
 msgid "Read your email"
 msgstr "ئېلخەت ئوقۇيدۇ"
 
-#: ../exo-open/exo-terminal-emulator.desktop.in.h:2
+#: ../blxo-open/blxo-terminal-emulator.desktop.in.h:2
 msgid "Use the command line"
 msgstr "بۇيرۇق قۇرىنى ئىشلىتىدۇ"
 
-#: ../exo-open/exo-web-browser.desktop.in.h:2
+#: ../blxo-open/blxo-web-browser.desktop.in.h:2
 msgid "Browse the web"
 msgstr "تور كۆرىدۇ"
